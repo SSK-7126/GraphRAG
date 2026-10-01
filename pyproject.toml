@@ -1,0 +1,14 @@
+[project]
+name = "graphrag"
+version = "0.1.0"
+description = "A GraphRAG system built from scratch"
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "numpy>=2.4.6",
+    "sentence-transformers>=6.1.0",
+    "torch>=2.14.1",
+]
+
+[[tool.uv.index]]
+url = "https://download.pytorch.org/whl/cpu"
