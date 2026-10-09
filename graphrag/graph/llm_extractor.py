@@ -9,12 +9,38 @@ class LLMGraphExtractor(GraphExtractor):
         self.llm = llm
 
     def extract(self, text: str) -> tuple[list[Entity], list[Relationship]]:
-        prompt = f"""Extract entities and relationships from the following text.
-Text: {text}
+        
+        prompt = f"""Extract every explicitly stated entity and relationship
+                    from the text below.
 
-Return only JSON in this format:
-{{"entities": [{{"name": "...", "type": "...", "description": "..."}}],
- "relationships": [{{"source": "entity name", "target": "entity name", "description": "..."}}]}}."""
+                    Text:
+                    {text}
 
+                    Return ONLY valid JSON in exactly this structure:
+                        {{
+                        "entities": [
+                            {{
+                            "name": "entity name",
+                            "type": "person, company, product, or other",
+                            "description": "short description"
+                            }}
+                        ],
+                        "relationships": [
+                            {{
+                            "source": "source entity name",
+                            "target": "target entity name",
+                            "description": "relationship stated in the text",
+                            "weight": 1.0
+                            }}
+                        ]
+                        }}
+
+                        Rules:
+                        - Include every relationship explicitly stated in the text.
+                        - Every relationship source and target must match an entity name.
+                        - Do not invent facts or relationships.
+                        - Use an empty array when there are no entities or relationships.
+                        - Do not include Markdown fences or text outside the JSON.
+                        """
         response = self.llm.generate(prompt)
         return parse_extraction_response(response)
