@@ -1,1 +1,3 @@
-Alice works at Microsoft. Microsoft develops Azure.
+Alice works at Microsoft.
+
+Microsoft develops Azure.
