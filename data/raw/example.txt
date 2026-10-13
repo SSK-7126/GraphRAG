@@ -1,3 +1,10 @@
-Alice works at Microsoft.
-
-Microsoft develops Azure.
+Alice is a software engineer at Microsoft.
+Microsoft develops a cloud computing platform called Azure.
+Alice works with Bob on a cloud computing project.
+Bob is a data scientist at Google.
+Google develops an artificial intelligence model called Gemini.
+Microsoft and Google are technology companies.
+Azure provides cloud computing services to businesses.
+Gemini is used for tasks such as text generation and question answering.
+Alice uses Azure to deploy applications.
+Bob uses Gemini to experiment with artificial intelligence.
