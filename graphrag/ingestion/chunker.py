@@ -1,3 +1,6 @@
+from graphrag.model.document import Chunk
+
+
 def chunk_text(text: str,chunk_size: int = 500,overlap: int =50) -> list[str]:
     if chunk_size <= 0:
         raise ValueError("chunk_size must be greater than 0")
@@ -17,3 +20,18 @@ def chunk_text(text: str,chunk_size: int = 500,overlap: int =50) -> list[str]:
         start += chunk_size - overlap
 
     return chunks
+
+
+def chunk_document(
+    text: str, document_id: str, *, chunk_size: int = 500, overlap: int = 50
+) -> list[Chunk]:
+    """Create stable, provenance-preserving chunks for the dataset pipeline."""
+    return [
+        Chunk(
+            id=f"{document_id}:chunk:{position:05d}",
+            text=chunk,
+            document_id=document_id,
+            position=position,
+        )
+        for position, chunk in enumerate(chunk_text(text, chunk_size, overlap), start=1)
+    ]

@@ -1,0 +1,106 @@
+{
+  "document_id": "hotpotqa:b7d2d926c507",
+  "source_relative_path": "input/test_1017.txt",
+  "chunks": [
+    {
+      "id": "hotpotqa:b7d2d926c507:chunk:00001",
+      "position": 1,
+      "text": "Neutral beam injection (NBI) is one method used to heat plasma inside a fusion device consisting in a beam of high-energy neutral particles that can enter the confinement magnetic field.\n When these neutral particles are ionized by collision with the plasma particles, they are kept in the plasma by the confining magnetic field, and can transfer most of their energy by further collisions with the plasma.\n By tangential injection in the torus, neutral beams provide also momentum to the plasma and "
+    },
+    {
+      "id": "hotpotqa:b7d2d926c507:chunk:00002",
+      "position": 2,
+      "text": "ral beams provide also momentum to the plasma and current drive, one essential feature for long pulses of burning plasmas.\n Neutral beam injection is a ﬂexible and reliable technique, which has been the main heating system on a large variety of fusion devices.\n To date, all NBI systems were based on positive precursor ion beams.\n In the 90s there has been impressive progress in negative ion sources and accelerators with the construction of multi-megawatt negative ion based NBI systems at LHD (H,"
+    },
+    {
+      "id": "hotpotqa:b7d2d926c507:chunk:00003",
+      "position": 3,
+      "text": "megawatt negative ion based NBI systems at LHD (H, 180 keV) and JT-60U (D, 500 keV).\n The NBI designed for ITER is a substantial challenge (D, 1MeV, 40A) and a prototype is being constructed to optimize its performance in view of the ITER future operations.\n Other ways to heat plasma for nuclear fusion include RF heating, electron cyclotron resonance heating (ECRH), and ion cyclotron resonance heating (ICRH).\nA magnetic nozzle is a convergent-divergent magnetic field that guides, expands and acc"
+    },
+    {
+      "id": "hotpotqa:b7d2d926c507:chunk:00004",
+      "position": 4,
+      "text": "ergent magnetic field that guides, expands and accelerates a plasma jet into vacuum for the purpose of space propulsion.\n The magnetic field in a magnetic nozzle plays a similar role to the convergent-divergent solid walls in a de Laval nozzle, wherein a hot neutral gas is expanded first subsonically and then supersonically to increase thrust.\n Like a de Laval nozzle, a magnetic nozzle converts the internal energy of the plasma into directed kinetic energy, but the operation is based on the inte"
+    },
+    {
+      "id": "hotpotqa:b7d2d926c507:chunk:00005",
+      "position": 5,
+      "text": "tic energy, but the operation is based on the interaction of the applied magnetic field with the electric charges in the plasma, rather than on pressure forces acting on solid walls.\n The main advantage of a magnetic nozzle over a solid one is that it can operate \"contactlessly,\" i.e. avoiding the material contact with the hot plasma, which would lead to system inefficiencies and reduced lifetime of the nozzle.\n Additional advantages include the capability of modifying the strength and geometry "
+    },
+    {
+      "id": "hotpotqa:b7d2d926c507:chunk:00006",
+      "position": 6,
+      "text": "capability of modifying the strength and geometry of the applied magnetic field in-flight, allowing the nozzle to adapt to different propulsive requirements and space missions. Magnetic nozzles are the fundamental acceleration stage of several next-generation plasma thrusters currently under development, such as the helicon plasma thruster, the electron-cyclotron resonance plasma thruster, the VASIMR, and the applied-field magnetoplasmadynamic thruster.\n Magnetic nozzles also find another field "
+    },
+    {
+      "id": "hotpotqa:b7d2d926c507:chunk:00007",
+      "position": 7,
+      "text": "ruster.\n Magnetic nozzles also find another field of application in advanced plasma manufacturing processes, and their physics are related to those of several magnetic confinement plasma fusion devices.\nWhen discussing weapons in science fiction, a plasma weapon is a type of raygun that fires a stream, bolt(s), pulse or toroid of plasma (i.e. very hot, very energetic excited matter).\n The primary damage mechanism of these fictional weapons is usually thermal transfer; it typically causes serious"
+    },
+    {
+      "id": "hotpotqa:b7d2d926c507:chunk:00008",
+      "position": 8,
+      "text": "ally thermal transfer; it typically causes serious burns, and often immediate death of living creatures, and melts or evaporates other materials.\n In certain fiction, plasma weapons may also have a significant kinetic energy component, that is to say the ionized material is projected with sufficient momentum to cause some secondary impact damage in addition to causing high thermal damage.\n In some fictions, like Star Wars, plasma is highly effective against mechanical targets such as droids.\n Th"
+    },
+    {
+      "id": "hotpotqa:b7d2d926c507:chunk:00009",
+      "position": 9,
+      "text": "ive against mechanical targets such as droids.\n The ionized gas disrupts their systems.\nVacuolar-type H+ -ATPase (V-ATPase) is a highly conserved evolutionarily ancient enzyme with remarkably diverse functions in eukaryotic organisms.\n V-ATPases acidify a wide array of intracellular organelles and pump protons across the plasma membranes of numerous cell types.\n V-ATPases couple the energy of ATP hydrolysis to proton transport across intracellular and plasma membranes of eukaryotic cells.\n It is"
+    },
+    {
+      "id": "hotpotqa:b7d2d926c507:chunk:00010",
+      "position": 10,
+      "text": "r and plasma membranes of eukaryotic cells.\n It is generally seen as the polar opposite of ATP synthase because ATP synthase is a proton channel that uses the energy from a proton gradient to produce ATP.\n V-ATPase however, is a proton pump that uses the energy from ATP hydrolysis to produce a proton gradient.\nThe Institute for Plasma Research (IPR) is an autonomous physics research institute located in India.\n The institute is involved in research in aspects of plasma science including basic pl"
+    },
+    {
+      "id": "hotpotqa:b7d2d926c507:chunk:00011",
+      "position": 11,
+      "text": "ch in aspects of plasma science including basic plasma physics, research on magnetically confined hot plasmas and plasma technologies for industrial applications.\n It is a large and leading plasma physics organization in India.\n The institute is mainly funded by Department of Atomic Energy.\n IPR is playing major scientific and technical role in Indian partnership in the international fusion energy initiative ITER.\n It is part of the IndiGO consortium for research on Gravitational Waves.\nA plasma"
+    },
+    {
+      "id": "hotpotqa:b7d2d926c507:chunk:00012",
+      "position": 12,
+      "text": "tium for research on Gravitational Waves.\nA plasma railgun is a linear accelerator which, like a projectile railgun, uses two long parallel electrodes to accelerate a \"sliding short\" armature.\n However, in a plasma railgun, the armature and ejected projectile consists of plasma, or hot, ionized, gas-like particles, instead of a solid slug of material.\n Scientific plasma railguns are typically operated in vacuum and not at air pressure.\n They are of value because they produce muzzle velocities of"
+    },
+    {
+      "id": "hotpotqa:b7d2d926c507:chunk:00013",
+      "position": 13,
+      "text": "of value because they produce muzzle velocities of up to several hundreds of kilometers per second.\n Because of this, these devices have applications in magnetic confinement fusion (MCF), magneto-inertial fusion (MIF), High Energy Density Physics research (HEDP), laboratory astrophysics, and as a plasma propulsion engine for spacecraft.\nPlasma cells, also called plasma B cells, plasmocytes, plasmacytes, or effector B cells, are white blood cells that secrete large volumes of antibodies.\n They ar"
+    },
+    {
+      "id": "hotpotqa:b7d2d926c507:chunk:00014",
+      "position": 14,
+      "text": "that secrete large volumes of antibodies.\n They are transported by the blood plasma and the lymphatic system.\n Plasma cells originate in the bone marrow; B cells differentiate into plasma cells that produce antibody molecules closely modelled after the receptors of the precursor B cell.\n Once released into the blood and lymph, these antibody molecules bind to the target antigen (foreign substance) and initiate its neutralization or destruction.\nA slapper detonator, also called exploding foil ini"
+    },
+    {
+      "id": "hotpotqa:b7d2d926c507:chunk:00015",
+      "position": 15,
+      "text": " slapper detonator, also called exploding foil initiator (EFI), is a relatively recent kind of a detonator developed by Lawrence Livermore National Laboratory, US Patent No. 4,788,913.\n It is an improvement of the earlier exploding-bridgewire detonator; instead of directly coupling the shock wave from the exploding wire, the expanding plasma from an explosion of a metal foil drives another thin plastic or metal foil called a \"flyer\" or a \"slapper\" across a gap, and its high-velocity impact on th"
+    },
+    {
+      "id": "hotpotqa:b7d2d926c507:chunk:00016",
+      "position": 16,
+      "text": "\" across a gap, and its high-velocity impact on the explosive (for example, PETN or hexanitrostilbene) then delivers the energy and shock needed to initiate a detonation.\n Normally all the slapper's kinetic energy is supplied only by the heating (and hence expansion) of the plasma (the former foil) by the current passing through it, though constructions with a \"back strap\" to further drive the plasma forward by magnetic field exist too.\n This assembly is quite efficient; up to 30% of the electri"
+    },
+    {
+      "id": "hotpotqa:b7d2d926c507:chunk:00017",
+      "position": 17,
+      "text": "embly is quite efficient; up to 30% of the electrical energy can be converted to the slapper's kinetic energy.\nThe Drexel Plasma Institute, in Camden, New Jersey, is the largest university-based plasma research facility in the United States of America.\n Led by Drexel University, the members of the scientific team are from University of Illinois at Chicago, Argonne National Laboratory, Pacific Northwest National Laboratory and Kurchatov Institute of Atomic Energy.\n The primary fields of research "
+    },
+    {
+      "id": "hotpotqa:b7d2d926c507:chunk:00018",
+      "position": 18,
+      "text": "of Atomic Energy.\n The primary fields of research are applications in medicine, Environmental Control, energy, and agricultural industries.\n DPI exists to research, educate, and design plasma systems.\n More specifically, its mission is \"to stimulate and coordinate research projects related to plasma and other modern high energy engineering techniques.\"\nCorona treatment (sometimes referred to as air plasma) is a surface modification technique that uses a low temperature corona discharge plasma to"
+    },
+    {
+      "id": "hotpotqa:b7d2d926c507:chunk:00019",
+      "position": 19,
+      "text": " uses a low temperature corona discharge plasma to impart changes in the properties of a surface.\n The corona plasma is generated by the application of high voltage to an electrode that has a sharp tip.\n The plasma forms at the tip.\n A linear array of electrodes is often used to create a curtain of corona plasma.\n Materials such as plastics, cloth, or paper may be passed through the corona plasma curtain in order to change the surface energy of the material.\n All materials have an inherent surfa"
+    },
+    {
+      "id": "hotpotqa:b7d2d926c507:chunk:00020",
+      "position": 20,
+      "text": "he material.\n All materials have an inherent surface energy.\n Surface treatment systems are available for virtually any surface format including dimensional objects, sheets and roll goods that are handled in a web format.\n Corona treatment is a widely used surface treatment method in the plastic film, extrusion, and converting industries."
+    }
+  ]
+}

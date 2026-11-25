@@ -21,6 +21,17 @@ class LocalQueryEngine:
         self.max_entities = max_entities
 
     def query(self, graph: KnowledgeGraph, question: str) -> LocalQueryResult:
+        ordered_entity_ids, relationships = self.retrieve(graph, question)
+        return LocalQueryResult(
+            answer=self.answer(graph, question, ordered_entity_ids, relationships),
+            entity_ids=ordered_entity_ids,
+            relationships=relationships,
+        )
+
+    def retrieve(
+        self, graph: KnowledgeGraph, question: str
+    ) -> tuple[list[str], list[Relationship]]:
+        """Perform the non-LLM local graph retrieval step."""
         seed_ids = self._find_relevant_entities(graph, question)
         relationship_map = {
             relationship.id: relationship
@@ -32,7 +43,16 @@ class LocalQueryEngine:
             entity_ids.add(relationship.target)
         ordered_entity_ids = sorted(entity_ids)
         relationships = list(relationship_map.values())
-        context = self._format_context(graph, ordered_entity_ids, relationships)
+        return ordered_entity_ids, relationships
+
+    def answer(
+        self,
+        graph: KnowledgeGraph,
+        question: str,
+        entity_ids: list[str],
+        relationships: list[Relationship],
+    ) -> str:
+        context = self._format_context(graph, entity_ids, relationships)
         prompt = f"""LOCAL QUERY
 Answer the question using the local knowledge-graph context. If the context does not
 contain the answer, say so instead of inventing facts.
@@ -42,11 +62,7 @@ Question: {question}
 Context:
 {context}
 """
-        return LocalQueryResult(
-            answer=self.llm.generate(prompt).strip(),
-            entity_ids=ordered_entity_ids,
-            relationships=relationships,
-        )
+        return self.llm.generate(prompt).strip()
 
     def _find_relevant_entities(self, graph: KnowledgeGraph, question: str) -> list[str]:
         query_terms = set(re.findall(r"\w+", question.lower()))

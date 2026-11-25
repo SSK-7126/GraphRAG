@@ -11,19 +11,15 @@ from graphrag.graph.community_summarizer import CommunitySummarizer
 from graphrag.graph.graph import KnowledgeGraph
 from graphrag.graph.llm_extractor import LLMGraphExtractor
 from graphrag.ingestion.document_pipeline import DocumentPipeline
-from graphrag.llm.mock import MockLLM
-from graphrag.llm.openai import OpenAICompatibleLLM
 from graphrag.llm.ollama import OllamaLLM
 from graphrag.query.global_query import GlobalQueryEngine
 from graphrag.query.local import LocalQueryEngine
 
 
 def build_llm(provider: str, model: str | None):
-    if provider == "ollama":
-        return OllamaLLM(model=model or "qwen2.5:3b")
-    if provider == "openai":
-        return OpenAICompatibleLLM(model=model or "gpt-4o-mini")
-    return MockLLM()
+    if provider != "ollama":
+        raise ValueError("This runtime uses Ollama only.")
+    return OllamaLLM(model=model or "qwen2.5:3b")
 
 
 def main() -> None:
@@ -42,18 +38,6 @@ def main() -> None:
         default="What is the relationship between Alice and Azure?",
     )
 
-    provider_group = parser.add_mutually_exclusive_group()
-    provider_group.add_argument(
-        "--ollama",
-        action="store_true",
-        help="Use a local Ollama model.",
-    )
-    provider_group.add_argument(
-        "--openai",
-        action="store_true",
-        help="Use the OpenAI API.",
-    )
-
     parser.add_argument(
         "--model",
         default=None,
@@ -62,11 +46,7 @@ def main() -> None:
 
     args = parser.parse_args()
 
-    provider = (
-        "ollama" if args.ollama
-        else "openai" if args.openai
-        else "mock"
-    )
+    provider = "ollama"
     llm = build_llm(provider, args.model)
 
     graph = KnowledgeGraph()

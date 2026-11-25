@@ -1,0 +1,33 @@
+{
+  "run_id": "b7cc1cb92715478c9ac94b5e77bc9c90",
+  "total_runtime_seconds": 4.160302099997352,
+  "stages": {
+    "dataset_discovery": {
+      "total_seconds": 4.160290399995574,
+      "percent_of_total": 99.99971877038021,
+      "average_seconds": 4.160290399995574,
+      "median_seconds": 4.160290399995574,
+      "minimum_seconds": 4.160290399995574,
+      "maximum_seconds": 4.160290399995574,
+      "calls": 1
+    },
+    "dataset_validation": {
+      "total_seconds": 1.170000177808106e-05,
+      "percent_of_total": 0.0002812296197934401,
+      "average_seconds": 1.170000177808106e-05,
+      "median_seconds": 1.170000177808106e-05,
+      "minimum_seconds": 1.170000177808106e-05,
+      "maximum_seconds": 1.170000177808106e-05,
+      "calls": 1
+    }
+  },
+  "documents_processed_per_second": 0.0,
+  "chunks_processed_per_second": 0.0,
+  "documents_seen": 0,
+  "chunks_seen": 0,
+  "total_llm_calls": 0,
+  "failed_llm_calls": 0,
+  "retry_count": 0,
+  "input_tokens": 0,
+  "output_tokens": 0
+}

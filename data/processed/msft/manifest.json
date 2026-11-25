@@ -1,0 +1,193 @@
+{
+  "dataset": "msft",
+  "raw_dir": "C:\\Users\\sreek\\Sreekar\\GraphRAG\\GraphRAG\\data\\raw",
+  "documents": [
+    {
+      "id": "msft:93030904d1ba",
+      "relative_path": "MSFT Input Text/txt/TranscriptFY14Q4.txt"
+    },
+    {
+      "id": "msft:4fc4207b15cf",
+      "relative_path": "MSFT Input Text/txt/TranscriptFY15Q1.txt"
+    },
+    {
+      "id": "msft:2808ec86d6d6",
+      "relative_path": "MSFT Input Text/txt/TranscriptFY15Q2.txt"
+    },
+    {
+      "id": "msft:acb1072bf0a8",
+      "relative_path": "MSFT Input Text/txt/TranscriptFY15Q3.txt"
+    },
+    {
+      "id": "msft:0c6954f0a1d6",
+      "relative_path": "MSFT Input Text/txt/TranscriptFY15Q4.txt"
+    },
+    {
+      "id": "msft:44d7eefce582",
+      "relative_path": "MSFT Input Text/txt/TranscriptFY16Q1.txt"
+    },
+    {
+      "id": "msft:bfb96aa3b6f3",
+      "relative_path": "MSFT Input Text/txt/TranscriptFY16Q2.txt"
+    },
+    {
+      "id": "msft:0ba7f37a368a",
+      "relative_path": "MSFT Input Text/txt/TranscriptFY16Q3.txt"
+    },
+    {
+      "id": "msft:e48f94ad4e38",
+      "relative_path": "MSFT Input Text/txt/TranscriptFY16Q4.txt"
+    },
+    {
+      "id": "msft:1c75ee6b5fee",
+      "relative_path": "MSFT Input Text/txt/TranscriptFY17Q1.txt"
+    },
+    {
+      "id": "msft:cd6b0cbc0944",
+      "relative_path": "MSFT Input Text/txt/TranscriptFY17Q2.txt"
+    },
+    {
+      "id": "msft:b36e94bbb3c1",
+      "relative_path": "MSFT Input Text/txt/TranscriptFY17Q3.txt"
+    },
+    {
+      "id": "msft:b1239c47bea4",
+      "relative_path": "MSFT Input Text/txt/TranscriptFY17Q4.txt"
+    },
+    {
+      "id": "msft:d68dc020da04",
+      "relative_path": "MSFT Input Text/txt/TranscriptFY18Q1.txt"
+    },
+    {
+      "id": "msft:4decd11a9bb3",
+      "relative_path": "MSFT Input Text/txt/TranscriptFY18Q2.txt"
+    },
+    {
+      "id": "msft:88d508615071",
+      "relative_path": "MSFT Input Text/txt/TranscriptFY18Q3.txt"
+    },
+    {
+      "id": "msft:d962c1999c18",
+      "relative_path": "MSFT Input Text/txt/TranscriptFY18Q4.txt"
+    },
+    {
+      "id": "msft:cb5d7f73eca7",
+      "relative_path": "MSFT Input Text/txt/TranscriptFY19Q1.txt"
+    },
+    {
+      "id": "msft:6a900eefa82f",
+      "relative_path": "MSFT Input Text/txt/TranscriptFY19Q2.txt"
+    },
+    {
+      "id": "msft:89ad394d9f32",
+      "relative_path": "MSFT Input Text/txt/TranscriptFY19Q3.txt"
+    },
+    {
+      "id": "msft:cb672d7cafe5",
+      "relative_path": "MSFT Input Text/txt/TranscriptFY19Q4.txt"
+    },
+    {
+      "id": "msft:b1a6a5f90d6b",
+      "relative_path": "MSFT Input Text/txt/TranscriptFY20Q1.txt"
+    },
+    {
+      "id": "msft:56ece9d5b792",
+      "relative_path": "MSFT Input Text/txt/TranscriptFY20Q2.txt"
+    },
+    {
+      "id": "msft:d287b494e737",
+      "relative_path": "MSFT Input Text/txt/TranscriptFY20Q3.txt"
+    },
+    {
+      "id": "msft:4446a5b10624",
+      "relative_path": "MSFT Input Text/txt/TranscriptFY20Q4.txt"
+    },
+    {
+      "id": "msft:4e936c5385ff",
+      "relative_path": "MSFT Input Text/txt/TranscriptFY21Q1.txt"
+    },
+    {
+      "id": "msft:ab13714c13a8",
+      "relative_path": "MSFT Input Text/txt/TranscriptFY21Q2.txt"
+    },
+    {
+      "id": "msft:ed0ce3cf4ed0",
+      "relative_path": "MSFT Input Text/txt/TranscriptFY21Q3.txt"
+    },
+    {
+      "id": "msft:559769657f8d",
+      "relative_path": "MSFT Input Text/txt/TranscriptFY21Q4.txt"
+    },
+    {
+      "id": "msft:45958c77c632",
+      "relative_path": "MSFT Input Text/txt/TranscriptFY22Q1.txt"
+    },
+    {
+      "id": "msft:d8ce37af4bba",
+      "relative_path": "MSFT Input Text/txt/TranscriptFY22Q2.txt"
+    },
+    {
+      "id": "msft:89675d39b386",
+      "relative_path": "MSFT Input Text/txt/TranscriptFY22Q3.txt"
+    },
+    {
+      "id": "msft:827168a6ef67",
+      "relative_path": "MSFT Input Text/txt/TranscriptFY22Q4.txt"
+    },
+    {
+      "id": "msft:49b76690c4be",
+      "relative_path": "MSFT Input Text/txt/TranscriptFY23Q1.txt"
+    },
+    {
+      "id": "msft:8d346ca97e14",
+      "relative_path": "MSFT Input Text/txt/TranscriptFY23Q2.txt"
+    },
+    {
+      "id": "msft:69b7d7e23f48",
+      "relative_path": "MSFT Input Text/txt/TranscriptFY23Q3.txt"
+    },
+    {
+      "id": "msft:a27f5608b621",
+      "relative_path": "MSFT Input Text/txt/TranscriptFY23Q4.txt"
+    },
+    {
+      "id": "msft:2309994e1085",
+      "relative_path": "MSFT Input Text/txt/TranscriptFY24Q1.txt"
+    },
+    {
+      "id": "msft:500b375b3f1d",
+      "relative_path": "MSFT Input Text/txt/TranscriptFY24Q2.txt"
+    },
+    {
+      "id": "msft:fe252c9e0034",
+      "relative_path": "MSFT Input Text/txt/TranscriptFY24Q3.txt"
+    },
+    {
+      "id": "msft:d788181a1066",
+      "relative_path": "MSFT Input Text/txt/TranscriptFY24Q4.txt"
+    }
+  ],
+  "question_files": [
+    {
+      "relative_path": "MSFT Multi Transcript Questions.csv",
+      "kind": "multi_transcript",
+      "columns": [
+        "question_text",
+        "question_id"
+      ]
+    },
+    {
+      "relative_path": "MSFT Single Transcript Questions.csv",
+      "kind": "single_transcript",
+      "columns": [
+        "question_text",
+        "question_id"
+      ]
+    }
+  ],
+  "discovery_evidence": [
+    "earnings-transcript filename/content pattern"
+  ],
+  "warnings": [],
+  "validation_issues": []
+}
