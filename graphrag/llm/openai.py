@@ -48,3 +48,8 @@ class OpenAICompatibleLLM(LLM):
         except URLError as error:
             raise RuntimeError("Could not reach the LLM endpoint.") from error
         return data["choices"][0]["message"]["content"]
+
+    def worker_spec(self) -> dict:
+        # Explicitly supplied credentials are needed by remote workers; callers
+        # should prefer environment credentials for real clusters.
+        return {"kind": "openai_compatible", "model": self.model, "api_key": self.api_key, "base_url": self.base_url}

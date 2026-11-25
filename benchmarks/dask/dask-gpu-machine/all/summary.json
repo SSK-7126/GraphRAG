@@ -1,0 +1,37 @@
+{
+  "run_id": "dask-gpu-machine",
+  "backend": "dask",
+  "total_runtime_seconds": 0.016197999997530133,
+  "wall_clock_runtime_seconds": 0.016197999997530133,
+  "aggregate_stage_runtime_seconds": 0.002544799994211644,
+  "stages": {
+    "dataset_discovery": {
+      "aggregate_seconds": 0.002531599995563738,
+      "average_seconds": 0.002531599995563738,
+      "median_seconds": 0.002531599995563738,
+      "minimum_seconds": 0.002531599995563738,
+      "maximum_seconds": 0.002531599995563738,
+      "calls": 1,
+      "percent_of_wall_clock": 15.62908998610789
+    },
+    "dataset_validation": {
+      "aggregate_seconds": 1.3199998647905886e-05,
+      "average_seconds": 1.3199998647905886e-05,
+      "median_seconds": 1.3199998647905886e-05,
+      "minimum_seconds": 1.3199998647905886e-05,
+      "maximum_seconds": 1.3199998647905886e-05,
+      "calls": 1,
+      "percent_of_wall_clock": 0.08149153383083478
+    }
+  },
+  "documents_processed_per_second": 0.0,
+  "chunks_processed_per_second": 0.0,
+  "documents_seen": 0,
+  "chunks_seen": 0,
+  "total_llm_calls": 0,
+  "failed_llm_calls": 0,
+  "retry_count": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "parallel_metrics": {}
+}

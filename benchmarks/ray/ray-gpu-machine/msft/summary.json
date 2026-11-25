@@ -1,0 +1,105 @@
+{
+  "run_id": "ray-gpu-machine",
+  "backend": "ray",
+  "total_runtime_seconds": 3.635627299998305,
+  "wall_clock_runtime_seconds": 3.635627299998305,
+  "aggregate_stage_runtime_seconds": 0.006677400000626221,
+  "stages": {
+    "chunk_extraction": {
+      "aggregate_seconds": 0.00020200000290060416,
+      "average_seconds": 0.00020200000290060416,
+      "median_seconds": 0.00020200000290060416,
+      "minimum_seconds": 0.00020200000290060416,
+      "maximum_seconds": 0.00020200000290060416,
+      "calls": 1,
+      "percent_of_wall_clock": 0.005556125153441838
+    },
+    "chunk_persistence": {
+      "aggregate_seconds": 0.0011513999997987412,
+      "average_seconds": 0.0011513999997987412,
+      "median_seconds": 0.0011513999997987412,
+      "minimum_seconds": 0.0011513999997987412,
+      "maximum_seconds": 0.0011513999997987412,
+      "calls": 1,
+      "percent_of_wall_clock": 0.031669912914320954
+    },
+    "chunking": {
+      "aggregate_seconds": 1.6199999663513154e-05,
+      "average_seconds": 1.6199999663513154e-05,
+      "median_seconds": 1.6199999663513154e-05,
+      "minimum_seconds": 1.6199999663513154e-05,
+      "maximum_seconds": 1.6199999663513154e-05,
+      "calls": 1,
+      "percent_of_wall_clock": 0.0004455902194243262
+    },
+    "community_detection": {
+      "aggregate_seconds": 0.0009410999991814606,
+      "average_seconds": 0.0009410999991814606,
+      "median_seconds": 0.0009410999991814606,
+      "minimum_seconds": 0.0009410999991814606,
+      "maximum_seconds": 0.0009410999991814606,
+      "calls": 1,
+      "percent_of_wall_clock": 0.025885491595409114
+    },
+    "file_loading": {
+      "aggregate_seconds": 0.00024560000019846484,
+      "average_seconds": 0.00024560000019846484,
+      "median_seconds": 0.00024560000019846484,
+      "minimum_seconds": 0.00024560000019846484,
+      "maximum_seconds": 0.00024560000019846484,
+      "calls": 1,
+      "percent_of_wall_clock": 0.006755367916798824
+    },
+    "graph_insertion": {
+      "aggregate_seconds": 6.000002031214535e-06,
+      "average_seconds": 6.000002031214535e-06,
+      "median_seconds": 6.000002031214535e-06,
+      "minimum_seconds": 6.000002031214535e-06,
+      "maximum_seconds": 6.000002031214535e-06,
+      "calls": 1,
+      "percent_of_wall_clock": 0.00016503347389919018
+    },
+    "graph_persistence": {
+      "aggregate_seconds": 0.0040166999970097095,
+      "average_seconds": 0.0040166999970097095,
+      "median_seconds": 0.0040166999970097095,
+      "minimum_seconds": 0.0040166999970097095,
+      "maximum_seconds": 0.0040166999970097095,
+      "calls": 1,
+      "percent_of_wall_clock": 0.11048162161758392
+    },
+    "graph_validation": {
+      "aggregate_seconds": 2.6999987312592566e-06,
+      "average_seconds": 2.6999987312592566e-06,
+      "median_seconds": 2.6999987312592566e-06,
+      "minimum_seconds": 2.6999987312592566e-06,
+      "maximum_seconds": 2.6999987312592566e-06,
+      "calls": 1,
+      "percent_of_wall_clock": 7.426500321582785e-05
+    },
+    "text_cleaning": {
+      "aggregate_seconds": 9.57000011112541e-05,
+      "average_seconds": 9.57000011112541e-05,
+      "median_seconds": 9.57000011112541e-05,
+      "minimum_seconds": 9.57000011112541e-05,
+      "maximum_seconds": 9.57000011112541e-05,
+      "calls": 1,
+      "percent_of_wall_clock": 0.0026322830481358395
+    }
+  },
+  "documents_processed_per_second": 0.27505569671579544,
+  "chunks_processed_per_second": 0.27505569671579544,
+  "documents_seen": 1,
+  "chunks_seen": 1,
+  "total_llm_calls": 2,
+  "failed_llm_calls": 0,
+  "retry_count": 0,
+  "input_tokens": null,
+  "output_tokens": null,
+  "parallel_metrics": {
+    "worker_count": 1,
+    "tasks": 1,
+    "failed_tasks": 0,
+    "task_wait_seconds": 3.6248148000013316
+  }
+}

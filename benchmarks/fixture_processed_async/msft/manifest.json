@@ -1,0 +1,26 @@
+{
+  "dataset": "msft",
+  "raw_dir": "C:\\Users\\sreek\\Sreekar\\GraphRAG\\GraphRAG\\benchmarks\\fixture_raw",
+  "documents": [
+    {
+      "id": "msft:57391c5b09c5",
+      "relative_path": "MSFT Input Text/txt/TranscriptFixture.txt"
+    }
+  ],
+  "question_files": [],
+  "discovery_evidence": [
+    "earnings-transcript filename/content pattern"
+  ],
+  "warnings": [],
+  "validation_issues": [
+    "Expected 41 text documents but discovered 1.",
+    "Expected 2 question CSV file(s) but discovered 0."
+  ],
+  "processing_state": {
+    "completed_document_ids": [
+      "msft:57391c5b09c5"
+    ],
+    "failed_documents": {},
+    "rejected_relationships": {}
+  }
+}

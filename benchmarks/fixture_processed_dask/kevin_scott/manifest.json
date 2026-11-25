@@ -1,0 +1,12 @@
+{
+  "dataset": "kevin_scott",
+  "raw_dir": "C:\\Users\\sreek\\Sreekar\\GraphRAG\\GraphRAG\\benchmarks\\fixture_raw",
+  "documents": [],
+  "question_files": [],
+  "discovery_evidence": [],
+  "warnings": [],
+  "validation_issues": [
+    "Expected 1669 text documents but discovered 0.",
+    "Expected 1 question CSV file(s) but discovered 0."
+  ]
+}

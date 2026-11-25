@@ -18,6 +18,7 @@ class GraphBuilder:
         *,
         document_id: str | None = None,
         chunk_id: str | None = None,
+        validate: bool = True,
     ) -> tuple[int, int]:
         """Insert one chunk's extraction and retain document/chunk provenance."""
         provenance = {
@@ -49,9 +50,13 @@ class GraphBuilder:
                 )
             )
 
-        errors = graph.validate()
-        if errors:
-            raise ValueError("Invalid knowledge graph: " + "; ".join(errors))
+        # `add_relationship` already verifies both endpoints.  Full validation
+        # is retained by default for compatibility; batch pipelines can defer
+        # the O(E) scan until a checkpoint/finalization boundary.
+        if validate:
+            errors = graph.validate()
+            if errors:
+                raise ValueError("Invalid knowledge graph: " + "; ".join(errors))
         return len(entities), len(relationships)
 
     @staticmethod

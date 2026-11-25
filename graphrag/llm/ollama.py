@@ -60,3 +60,6 @@ class OllamaLLM(LLM):
     @property
     def last_usage(self) -> dict | None:
         return self._last_usage
+
+    def worker_spec(self) -> dict:
+        return {"kind": "ollama", "model": self.model, "base_url": self.base_url}

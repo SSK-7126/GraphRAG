@@ -7,12 +7,15 @@ requires-python = ">=3.11,<3.12"
 dependencies = [
     "matplotlib>=3.11.2",
     "numpy>=2.4.6",
-    "sentence-transformers>=6.1.0",
-    "torch>=2.14.1",
 ]
 
-[[tool.uv.index]]
-url = "https://download.pytorch.org/whl/cpu"
+[project.optional-dependencies]
+ray = ["ray>=2.40"]
+dask = ["dask>=2024.12"]
+embeddings = ["sentence-transformers>=6.1.0"]
+# GPU wheels are platform-specific. Install them through
+# scripts/setup_acceleration.ps1 rather than locking every machine to CPU/CUDA.
+gpu = ["sentence-transformers>=6.1.0"]
 
 [dependency-groups]
 dev = [

@@ -48,8 +48,8 @@ Python 3.11 and [uv](https://docs.astral.sh/uv/) are expected.
 uv sync
 ```
 
-`sentence-transformers` is already declared for optional embedding experiments.
-The main graph demo does not download or load an embedding model.
+The main graph demo does not download or load an embedding model. Install the
+optional `embeddings` extra only when running vector experiments.
 
 ## Dataset pipeline
 
@@ -182,8 +182,78 @@ For a presentation, explain the distinction between **local** (one entity
 neighbourhood) and **global** (community map/reduce) questions, and why summaries
 let a model reason about a large graph without receiving every edge at once.
 
-This is a deliberately sequential implementation so timing data can guide later
-parallelisation. Extraction quality remains model- and prompt-dependent. The
-baseline community algorithm is connected components rather than hierarchical
-Leiden clustering. Token counts are reported only when Ollama supplies them; no
-metric is fabricated.
+## Performance backends and reproducible benchmarks
+
+`run.py` keeps the original scan-based, synchronous `serial` route available
+and adds `optimized_serial`, `asyncio`, `multiprocessing`, `ray`, `dask`, and
+`cuda` execution choices. Chunk workers return isolated extraction results; a
+single coordinator merges them in document/chunk order, validates the graph,
+and writes checkpoints. Consequently no worker concurrently mutates a graph.
+
+```powershell
+python run.py --backend serial --dataset msft --run-id serial-001
+python run.py --backend optimized_serial --dataset msft --run-id optimized-001
+python run.py --backend asyncio --workers 8 --max-concurrent-llm-calls 4 --dataset msft --run-id async-001
+python run.py --backend multiprocessing --workers 4 --dataset msft --run-id mp-001
+python run.py --backend ray --workers 4 --dataset msft --run-id ray-001
+python run.py --backend dask --workers 4 --dataset msft --run-id dask-001
+python run.py --backend cuda --dataset msft --embedding-batch-size 64 --run-id cuda-001
+```
+
+The serial path needs no optional distributed package. For a portable setup on
+another PC, create the project environment with `uv sync`, then run the
+platform-aware bootstrap script. The Python script works on Windows, Linux, and
+macOS; the PowerShell helper is provided for Windows users.
+
+```powershell
+uv run python scripts/setup_acceleration.py
+# Windows alternative:
+.\scripts\setup_acceleration.ps1
+.\.venv\Scripts\python.exe run.py --hardware
+```
+
+It installs Ray and Dask everywhere and installs CUDA PyTorch plus
+SentenceTransformers only when `nvidia-smi` detects an NVIDIA driver. A
+non-NVIDIA or CPU-only machine remains fully supported: `--backend cuda` falls
+back to CPU and records that fact rather than pretending GPU work occurred.
+CUDA is used only for batched SentenceTransformer embeddings when explicitly
+enabled; graph dictionaries, parsing, and string processing stay on CPU.
+
+On a CUDA-capable PC, index with GPU embeddings as follows. With an RTX 3050
+(4 GB), the automatically selected embedding batch size is 64; reduce it if a
+different model exhausts memory.
+
+```powershell
+.\.venv\Scripts\python.exe run.py --backend cuda --enable-embeddings --dataset msft --run-id cuda-001
+```
+
+Ray and Dask accelerate independent chunk extraction. They do not request the
+GPU, because the external Ollama model server owns GPU inference; this avoids
+multiple workers competing for the same 4 GB device.
+
+```powershell
+.\.venv\Scripts\python.exe run.py --backend ray --workers 4 --dataset msft --run-id ray-001
+.\.venv\Scripts\python.exe run.py --backend dask --workers 4 --dataset msft --run-id dask-001
+```
+
+Every command writes a separate directory:
+`benchmarks/<backend>/<run_id>/<dataset>/`. It contains `stage_timings.csv`,
+`document_timings.csv`, `chunk_timings.csv`, `query_timings.csv`,
+`evaluation_timings.csv`, and `summary.json`. The summary distinguishes actual
+wall clock from aggregate stage/task time, so overlapped work is not double
+counted as end-to-end time. It also records worker/task metrics and provider
+usage when available.
+
+Use the supplied deterministic test mode only to verify mechanics:
+
+```powershell
+python run.py --backend asyncio --workers 2 --llm mock --dataset msft --run-id smoke
+python scripts/compare_benchmarks.py
+python scripts/plot_benchmarks.py --output-dir benchmarks
+```
+
+The comparison utility reports only collected values. A missing CUDA device,
+LLM service, Ray/Dask install, or blocked process launcher remains explicitly
+unmeasured rather than being simulated. See
+`PERFORMANCE_HOTSPOT_ANALYSIS.md` and `PERFORMANCE_COMPARISON.md` for the
+methodology and current environment limitations.

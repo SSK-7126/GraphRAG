@@ -1,0 +1,109 @@
+{
+  "run_id": "baseline-mock",
+  "backend": "serial",
+  "total_runtime_seconds": 0.013839500003086869,
+  "wall_clock_runtime_seconds": 0.013839500003086869,
+  "aggregate_stage_runtime_seconds": 0.00787729997682618,
+  "stages": {
+    "chunk_persistence": {
+      "aggregate_seconds": 0.0015229999989969656,
+      "average_seconds": 0.0015229999989969656,
+      "median_seconds": 0.0015229999989969656,
+      "minimum_seconds": 0.0015229999989969656,
+      "maximum_seconds": 0.0015229999989969656,
+      "calls": 1,
+      "percent_of_wall_clock": 11.004732820241077
+    },
+    "chunking": {
+      "aggregate_seconds": 1.7499995010439306e-05,
+      "average_seconds": 1.7499995010439306e-05,
+      "median_seconds": 1.7499995010439306e-05,
+      "minimum_seconds": 1.7499995010439306e-05,
+      "maximum_seconds": 1.7499995010439306e-05,
+      "calls": 1,
+      "percent_of_wall_clock": 0.1264496188918384
+    },
+    "community_detection": {
+      "aggregate_seconds": 0.0010899999979301356,
+      "average_seconds": 0.0010899999979301356,
+      "median_seconds": 0.0010899999979301356,
+      "minimum_seconds": 0.0010899999979301356,
+      "maximum_seconds": 0.0010899999979301356,
+      "calls": 1,
+      "percent_of_wall_clock": 7.876007064467745
+    },
+    "entity_extraction": {
+      "aggregate_seconds": 0.00023239999427460134,
+      "average_seconds": 0.00023239999427460134,
+      "median_seconds": 0.00023239999427460134,
+      "minimum_seconds": 0.00023239999427460134,
+      "maximum_seconds": 0.00023239999427460134,
+      "calls": 1,
+      "percent_of_wall_clock": 1.6792513762980243
+    },
+    "entity_normalization": {
+      "aggregate_seconds": 2.6999987312592566e-06,
+      "average_seconds": 2.6999987312592566e-06,
+      "median_seconds": 2.6999987312592566e-06,
+      "minimum_seconds": 2.6999987312592566e-06,
+      "maximum_seconds": 2.6999987312592566e-06,
+      "calls": 1,
+      "percent_of_wall_clock": 0.019509366166819815
+    },
+    "file_loading": {
+      "aggregate_seconds": 0.000283800000033807,
+      "average_seconds": 0.000283800000033807,
+      "median_seconds": 0.000283800000033807,
+      "minimum_seconds": 0.000283800000033807,
+      "maximum_seconds": 0.000283800000033807,
+      "calls": 1,
+      "percent_of_wall_clock": 2.0506521187218185
+    },
+    "graph_insertion": {
+      "aggregate_seconds": 6.70000008540228e-06,
+      "average_seconds": 6.70000008540228e-06,
+      "median_seconds": 6.70000008540228e-06,
+      "minimum_seconds": 6.70000008540228e-06,
+      "maximum_seconds": 6.70000008540228e-06,
+      "calls": 1,
+      "percent_of_wall_clock": 0.04841215422455913
+    },
+    "graph_persistence": {
+      "aggregate_seconds": 0.004574099999445025,
+      "average_seconds": 0.004574099999445025,
+      "median_seconds": 0.004574099999445025,
+      "minimum_seconds": 0.004574099999445025,
+      "maximum_seconds": 0.004574099999445025,
+      "calls": 1,
+      "percent_of_wall_clock": 33.05104952075423
+    },
+    "relationship_extraction": {
+      "aggregate_seconds": 3.0999995942693204e-05,
+      "average_seconds": 3.0999995942693204e-05,
+      "median_seconds": 3.0999995942693204e-05,
+      "minimum_seconds": 3.0999995942693204e-05,
+      "maximum_seconds": 3.0999995942693204e-05,
+      "calls": 1,
+      "percent_of_wall_clock": 0.22399650229978485
+    },
+    "text_cleaning": {
+      "aggregate_seconds": 0.00011609999637585133,
+      "average_seconds": 0.00011609999637585133,
+      "median_seconds": 0.00011609999637585133,
+      "minimum_seconds": 0.00011609999637585133,
+      "maximum_seconds": 0.00011609999637585133,
+      "calls": 1,
+      "percent_of_wall_clock": 0.8389031131901838
+    }
+  },
+  "documents_processed_per_second": 72.25694568278855,
+  "chunks_processed_per_second": 72.25694568278855,
+  "documents_seen": 1,
+  "chunks_seen": 1,
+  "total_llm_calls": 2,
+  "failed_llm_calls": 0,
+  "retry_count": 0,
+  "input_tokens": null,
+  "output_tokens": null,
+  "parallel_metrics": {}
+}

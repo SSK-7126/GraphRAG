@@ -27,9 +27,9 @@ def save_graph(path: Path, graph: KnowledgeGraph) -> None:
     })
 
 
-def load_graph(path: Path) -> KnowledgeGraph:
+def load_graph(path: Path, *, enable_indexes: bool = True) -> KnowledgeGraph:
     data = json.loads(path.read_text(encoding="utf-8"))
-    graph = KnowledgeGraph()
+    graph = KnowledgeGraph(enable_indexes=enable_indexes)
     for item in data.get("entities", []):
         graph.entities[item["id"]] = Entity(**item)
     for item in data.get("relationships", []):
@@ -37,6 +37,7 @@ def load_graph(path: Path) -> KnowledgeGraph:
         if relationship.source not in graph.entities or relationship.target not in graph.entities:
             raise ValueError(f"Persisted graph has dangling relationship {relationship.id}")
         graph.relationships[relationship.id] = relationship
+    graph.rebuild_indexes()
     errors = graph.validate()
     if errors:
         raise ValueError("Persisted graph is invalid: " + "; ".join(errors))

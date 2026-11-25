@@ -1,6 +1,7 @@
 """Local GraphRAG queries: retrieve a relevant entity neighbourhood before answering."""
 
 from dataclasses import dataclass
+import heapq
 import re
 
 from graphrag.graph.graph import KnowledgeGraph
@@ -19,6 +20,7 @@ class LocalQueryEngine:
     def __init__(self, llm: LLM, max_entities: int = 3):
         self.llm = llm
         self.max_entities = max_entities
+        self._search_cache: tuple[int, dict[str, tuple[str, str]]] | None = None
 
     def query(self, graph: KnowledgeGraph, question: str) -> LocalQueryResult:
         ordered_entity_ids, relationships = self.retrieve(graph, question)
@@ -66,15 +68,20 @@ Context:
 
     def _find_relevant_entities(self, graph: KnowledgeGraph, question: str) -> list[str]:
         query_terms = set(re.findall(r"\w+", question.lower()))
+        revision = getattr(graph, "_revision", -1)
+        if self._search_cache is None or self._search_cache[0] != revision:
+            self._search_cache = (revision, {
+                entity.id: (entity.name.lower(), f"{entity.name} {entity.description}".lower())
+                for entity in graph.entities.values()
+            })
         scores = []
-        for entity in graph.entities.values():
-            searchable_text = f"{entity.name} {entity.description}".lower()
+        for entity_id, (lower_name, searchable_text) in self._search_cache[1].items():
             score = sum(term in searchable_text for term in query_terms)
-            if entity.name.lower() in question.lower():
+            if lower_name in question.lower():
                 score += 10
             if score:
-                scores.append((score, entity.id))
-        scores.sort(key=lambda item: (-item[0], item[1]))
+                scores.append((score, entity_id))
+        scores = heapq.nsmallest(self.max_entities, scores, key=lambda item: (-item[0], item[1]))
         return [entity_id for _, entity_id in scores[: self.max_entities]]
 
     @staticmethod

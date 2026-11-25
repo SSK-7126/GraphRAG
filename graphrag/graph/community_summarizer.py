@@ -28,11 +28,7 @@ class CommunitySummarizer:
     ) -> CommunitySummary:
         entity_ids = set(community.entity_ids)
         entities = [graph.entities[entity_id] for entity_id in community.entity_ids]
-        relationships = [
-            relationship
-            for relationship in graph.relationships.values()
-            if relationship.source in entity_ids and relationship.target in entity_ids
-        ]
+        relationships = graph.relationships_within_entities(entity_ids)
         entity_context = "\n".join(
             f"- {entity.name} ({entity.entity_type}): {entity.description}"
             for entity in entities

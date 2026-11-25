@@ -1,0 +1,37 @@
+{
+  "run_id": "asyncio-mock",
+  "backend": "asyncio",
+  "total_runtime_seconds": 0.01871440000104485,
+  "wall_clock_runtime_seconds": 0.01871440000104485,
+  "aggregate_stage_runtime_seconds": 0.0023568999968119897,
+  "stages": {
+    "dataset_discovery": {
+      "aggregate_seconds": 0.0023449000000255182,
+      "average_seconds": 0.0023449000000255182,
+      "median_seconds": 0.0023449000000255182,
+      "minimum_seconds": 0.0023449000000255182,
+      "maximum_seconds": 0.0023449000000255182,
+      "calls": 1,
+      "percent_of_wall_clock": 12.529923480820113
+    },
+    "dataset_validation": {
+      "aggregate_seconds": 1.1999996786471456e-05,
+      "average_seconds": 1.1999996786471456e-05,
+      "median_seconds": 1.1999996786471456e-05,
+      "minimum_seconds": 1.1999996786471456e-05,
+      "maximum_seconds": 1.1999996786471456e-05,
+      "calls": 1,
+      "percent_of_wall_clock": 0.06412172864639785
+    }
+  },
+  "documents_processed_per_second": 0.0,
+  "chunks_processed_per_second": 0.0,
+  "documents_seen": 0,
+  "chunks_seen": 0,
+  "total_llm_calls": 0,
+  "failed_llm_calls": 0,
+  "retry_count": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "parallel_metrics": {}
+}

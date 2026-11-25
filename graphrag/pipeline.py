@@ -25,19 +25,27 @@ from graphrag.persistence import (
 from graphrag.query.global_query import GlobalQueryEngine
 from graphrag.query.local import LocalQueryEngine
 from graphrag.timing import TimingRecorder
+from parallel import ExecutionBackend, SerialBackend
+from parallel.base import ExtractionTask
 
 
 class SequentialDatasetPipeline:
     """The intentional single-process, synchronous GraphRAG execution path."""
 
-    def __init__(self, config: PipelineConfig, llm: LLM):
+    def __init__(self, config: PipelineConfig, llm: LLM, *, backend: ExecutionBackend | None = None,
+                 run_id: str | None = None, benchmark_root: Path | None = None,
+                 embedding_batch_size: int | None = None):
         self.config = config
         self.llm = llm
         self.discoverer = DatasetDiscoverer(config.raw_dir)
         self.discoveries: dict[str, DatasetDiscovery] | None = None
+        self.backend = backend or SerialBackend()
+        self.run_id = run_id
+        self.benchmark_root = benchmark_root or config.raw_dir.parent.parent / "benchmarks"
+        self.embedding_batch_size = embedding_batch_size
 
     def discover_and_validate(self) -> dict[str, DatasetDiscovery]:
-        timer = TimingRecorder()
+        timer = TimingRecorder(self.run_id, backend=self.backend.name)
         with timer.measure("all", "dataset_discovery", items_processed=1):
             discoveries = self.discoverer.discover()
         with timer.measure("all", "dataset_validation", items_processed=len(discoveries)):
@@ -57,7 +65,7 @@ class SequentialDatasetPipeline:
             for issue in issues[dataset]:
                 print(f"WARNING [{dataset}]: {issue}")
         # Discovery timing is stored independently because it covers all datasets.
-        timer.write(self.config.processed_dir / "discovery_timings")
+        timer.write(self._benchmark_dir("all", timer.run_id))
         return discoveries
 
     def index(self, selected_datasets: list[str]) -> None:
@@ -69,9 +77,12 @@ class SequentialDatasetPipeline:
         dataset = discovery.name
         self._ensure_output_layout(dataset)
         paths = self._paths(dataset)
-        timer = TimingRecorder()
+        timer = TimingRecorder(self.run_id, backend=self.backend.name)
+        if self.backend.name == "cuda" and hasattr(self.backend, "cuda_info"):
+            timer.set_parallel_metrics(cuda=getattr(self.backend, "cuda_info")())
         checkpoint = CheckpointStore(paths["checkpoint"])
-        graph = load_graph(paths["graph"]) if paths["graph"].exists() else KnowledgeGraph()
+        enable_indexes = self.backend.name != "serial"
+        graph = load_graph(paths["graph"], enable_indexes=enable_indexes) if paths["graph"].exists() else KnowledgeGraph(enable_indexes=enable_indexes)
         builder = GraphBuilder(LLMGraphExtractor(self.llm))
         processed_this_run = 0
         failed_this_run = 0
@@ -109,19 +120,36 @@ class SequentialDatasetPipeline:
                     })
                 print(f"STAGE: Chunking | Chunks: {len(chunks)}")
                 document_started = perf_counter()
-                for chunk in chunks:
-                    entities = self._extract_entities(timer, dataset, document.id, chunk.id, chunk.text, builder)
-                    relationships = self._extract_relationships(
-                        timer, dataset, document.id, chunk.id, chunk.text, entities, builder
+                if self.backend.name == "serial":
+                    extracted = []
+                    for chunk in chunks:
+                        entities = self._extract_entities(timer, dataset, document.id, chunk.id, chunk.text, builder)
+                        relationships = self._extract_relationships(timer, dataset, document.id, chunk.id, chunk.text, entities, builder)
+                        extracted.append((chunk, entities, relationships, builder.extractor.last_rejections))
+                else:
+                    task_started = perf_counter()
+                    extracted_results = self.backend.extract_chunks(
+                        self.llm, [ExtractionTask(document.id, chunk.id, chunk.text) for chunk in chunks], self.config.retry_count
                     )
-                    checkpoint.record_rejections(
-                        document.id, chunk.id, builder.extractor.last_rejections
-                    )
-                    with timer.measure(dataset, "entity_normalization", document_id=document.id, chunk_id=chunk.id, items_processed=len(entities)):
-                        builder.normalize_entities(entities)
+                    timer.set_parallel_metrics(**self.backend.metrics, task_wait_seconds=perf_counter() - task_started)
+                    chunks_by_id = {chunk.id: chunk for chunk in chunks}
+                    extracted = [(chunks_by_id[result.task.chunk_id], result.entities,
+                                  result.relationships, result.rejections) for result in extracted_results]
+                    for result in extracted_results:
+                        timer.record_completed_task(dataset, "chunk_extraction", duration_seconds=result.duration_seconds,
+                            document_id=document.id, chunk_id=result.task.chunk_id, worker_id=result.worker_id,
+                            items_processed=len(result.entities) + len(result.relationships))
+                        for usage in result.usage: timer.record_llm_usage(usage, retry=result.attempts > 1)
+                # Coordinator merge order is stable regardless of task completion order.
+                for chunk, entities, relationships, rejections in sorted(extracted, key=lambda item: item[0].position):
+                    checkpoint.record_rejections(document.id, chunk.id, rejections)
+                    if self.backend.name == "serial":
+                        with timer.measure(dataset, "entity_normalization", document_id=document.id, chunk_id=chunk.id, items_processed=len(entities)):
+                            builder.normalize_entities(entities)
                     with timer.measure(dataset, "graph_insertion", document_id=document.id, chunk_id=chunk.id, items_processed=len(entities) + len(relationships)):
                         entity_count, relationship_count = builder.add_extraction(
-                            graph, entities, relationships, document_id=document.id, chunk_id=chunk.id
+                            graph, entities, relationships, document_id=document.id, chunk_id=chunk.id,
+                            validate=self.backend.name == "serial",
                         )
                     total_chunks += 1
                     total_entities += entity_count
@@ -138,15 +166,20 @@ class SequentialDatasetPipeline:
                 self._persist_checkpoint(dataset, graph, checkpoint, timer)
                 documents_since_checkpoint = 0
 
+        # Optimized/parallel paths validate once at the safe coordinator boundary.
+        if self.backend.name != "serial":
+            with timer.measure(dataset, "graph_validation", items_processed=len(graph.relationships)):
+                errors = graph.validate()
+                if errors: raise ValueError("Invalid knowledge graph: " + "; ".join(errors))
         self._persist_checkpoint(dataset, graph, checkpoint, timer)
         if failed_this_run:
             print(f"{dataset}: {failed_this_run} document(s) failed; rerun to retry them.")
-            timer.write(paths["timings"])
+            timer.write(self._benchmark_dir(dataset, timer.run_id))
             return
         self._build_communities(dataset, graph, timer)
         if self.config.enable_embeddings:
             self._embed_documents(dataset, discovery, timer)
-        summary = timer.write(paths["timings"])
+        summary = timer.write(self._benchmark_dir(dataset, timer.run_id))
         print(
             f"\nDataset: {dataset}\nDocuments discovered: {total_documents}\n"
             f"Documents processed this run: {processed_this_run}\nDocuments failed: {failed_this_run}\n"
@@ -217,14 +250,25 @@ class SequentialDatasetPipeline:
         """Optional embeddings stay separate from the graph and execute sequentially."""
         import numpy as np
         paths = self._paths(dataset)
-        embedder = SentenceTransformerEmbedder(self.config.embedding_model)
-        vectors = []
+        device, batch_size = None, self.embedding_batch_size or 32
+        if self.backend.name == "cuda":
+            cuda_info = getattr(self.backend, "cuda_info")()
+            timer.set_parallel_metrics(cuda=cuda_info)
+            # SentenceTransformers accepts CPU transparently when CUDA is not
+            # present; no fake GPU timings are emitted in that case.
+            device = "cuda" if cuda_info.get("available") else "cpu"
+            if self.embedding_batch_size is None:
+                batch_size = int(cuda_info.get("recommended_embedding_batch_size", batch_size))
+        embedder = SentenceTransformerEmbedder(self.config.embedding_model, device=device, batch_size=batch_size)
+        texts = []
         records = []
         for document in discovery.documents:
-            with timer.measure(dataset, "embedding_generation", document_id=document.id):
-                vector = embedder.embed(clean_text(load_text_file(str(document.path))))
-            vectors.append(vector)
+            texts.append(clean_text(load_text_file(str(document.path))))
             records.append({"document_id": document.id, "relative_path": document.relative_path})
+        with timer.measure(dataset, "embedding_generation", items_processed=len(texts)):
+            vectors = embedder.embed_many(texts, batch_size=batch_size)
+        if self.backend.name == "cuda":
+            timer.set_parallel_metrics(cuda={**getattr(self.backend, "cuda_info")(), "embedding_timing": embedder.last_timing})
         with timer.measure(dataset, "vector_index_construction", items_processed=len(vectors)):
             paths["embeddings"].mkdir(parents=True, exist_ok=True)
             np.save(paths["embeddings"] / "document_vectors.npy", np.asarray(vectors))
@@ -236,7 +280,7 @@ class SequentialDatasetPipeline:
             paths = self._paths(dataset)
             if not paths["graph"].exists():
                 raise FileNotFoundError(f"No persisted graph for {dataset}. Run indexing first.")
-            timer = TimingRecorder()
+            timer = TimingRecorder(self.run_id, backend=self.backend.name)
             with timer.measure(dataset, "query_parsing"):
                 normalized_question = question.strip()
                 if not normalized_question:
@@ -263,7 +307,7 @@ class SequentialDatasetPipeline:
             query_dir = paths["queries"]
             query_dir.mkdir(parents=True, exist_ok=True)
             write_json_atomic(query_dir / f"{timer.run_id}.json", payload)
-            timer.write(paths["timings"], write_summary=False)
+            timer.write(self._benchmark_dir(dataset, timer.run_id))
         return results
 
     def evaluate(self, selected_datasets: list[str], mode: str = "local") -> None:
@@ -276,7 +320,7 @@ class SequentialDatasetPipeline:
                 if question_column is None:
                     raise ValueError(f"No question column in {question_file.path}")
                 output_rows = []
-                timer = TimingRecorder()
+                timer = TimingRecorder(self.run_id, backend=self.backend.name)
                 for row in rows:
                     with timer.measure(dataset, "evaluation_question", document_id=row.get("question_id")):
                         result = self.query([dataset], row[question_column], mode)[0]
@@ -286,7 +330,7 @@ class SequentialDatasetPipeline:
                     writer = csv.DictWriter(handle, fieldnames=output_rows[0].keys() if output_rows else ["generated_answer"])
                     writer.writeheader()
                     writer.writerows(output_rows)
-                timer.write(self._paths(dataset)["timings"], write_summary=False)
+                timer.write(self._benchmark_dir(dataset, timer.run_id))
 
     def _dataset_dir(self, dataset: str) -> Path:
         return self.config.processed_dir / dataset
@@ -306,6 +350,10 @@ class SequentialDatasetPipeline:
         paths = self._paths(dataset)
         for name in ("chunks", "graph", "communities", "embeddings", "checkpoints", "timings", "evaluation", "queries"):
             (paths["root"] / name).mkdir(parents=True, exist_ok=True)
+
+    def _benchmark_dir(self, dataset: str, run_id: str) -> Path:
+        """A unique output directory prevents records from distinct runs mixing."""
+        return self.benchmark_root / self.backend.name / run_id / dataset
 
 
 def normalize_dataset_selection(values: list[str]) -> list[str]:

@@ -1,0 +1,105 @@
+{
+  "run_id": "dask-gpu-machine",
+  "backend": "dask",
+  "total_runtime_seconds": 0.150848400000541,
+  "wall_clock_runtime_seconds": 0.150848400000541,
+  "aggregate_stage_runtime_seconds": 0.006056199999875389,
+  "stages": {
+    "chunk_extraction": {
+      "aggregate_seconds": 0.00023579999833600596,
+      "average_seconds": 0.00023579999833600596,
+      "median_seconds": 0.00023579999833600596,
+      "minimum_seconds": 0.00023579999833600596,
+      "maximum_seconds": 0.00023579999833600596,
+      "calls": 1,
+      "percent_of_wall_clock": 0.15631587629378918
+    },
+    "chunk_persistence": {
+      "aggregate_seconds": 0.0013968999992357567,
+      "average_seconds": 0.0013968999992357567,
+      "median_seconds": 0.0013968999992357567,
+      "minimum_seconds": 0.0013968999992357567,
+      "maximum_seconds": 0.0013968999992357567,
+      "calls": 1,
+      "percent_of_wall_clock": 0.9260290458703883
+    },
+    "chunking": {
+      "aggregate_seconds": 1.68999977177009e-05,
+      "average_seconds": 1.68999977177009e-05,
+      "median_seconds": 1.68999977177009e-05,
+      "minimum_seconds": 1.68999977177009e-05,
+      "maximum_seconds": 1.68999977177009e-05,
+      "calls": 1,
+      "percent_of_wall_clock": 0.011203299284341292
+    },
+    "community_detection": {
+      "aggregate_seconds": 0.0008310000048368238,
+      "average_seconds": 0.0008310000048368238,
+      "median_seconds": 0.0008310000048368238,
+      "minimum_seconds": 0.0008310000048368238,
+      "maximum_seconds": 0.0008310000048368238,
+      "calls": 1,
+      "percent_of_wall_clock": 0.5508842021750602
+    },
+    "file_loading": {
+      "aggregate_seconds": 0.000254700004006736,
+      "average_seconds": 0.000254700004006736,
+      "median_seconds": 0.000254700004006736,
+      "minimum_seconds": 0.000254700004006736,
+      "maximum_seconds": 0.000254700004006736,
+      "calls": 1,
+      "percent_of_wall_clock": 0.16884501526421397
+    },
+    "graph_insertion": {
+      "aggregate_seconds": 6.099995516706258e-06,
+      "average_seconds": 6.099995516706258e-06,
+      "median_seconds": 6.099995516706258e-06,
+      "minimum_seconds": 6.099995516706258e-06,
+      "maximum_seconds": 6.099995516706258e-06,
+      "calls": 1,
+      "percent_of_wall_clock": 0.0040437919902924935
+    },
+    "graph_persistence": {
+      "aggregate_seconds": 0.003213399999367539,
+      "average_seconds": 0.003213399999367539,
+      "median_seconds": 0.003213399999367539,
+      "minimum_seconds": 0.003213399999367539,
+      "maximum_seconds": 0.003213399999367539,
+      "calls": 1,
+      "percent_of_wall_clock": 2.130218152367552
+    },
+    "graph_validation": {
+      "aggregate_seconds": 2.7999994927085936e-06,
+      "average_seconds": 2.7999994927085936e-06,
+      "median_seconds": 2.7999994927085936e-06,
+      "minimum_seconds": 2.7999994927085936e-06,
+      "maximum_seconds": 2.7999994927085936e-06,
+      "calls": 1,
+      "percent_of_wall_clock": 0.0018561678431448735
+    },
+    "text_cleaning": {
+      "aggregate_seconds": 9.860000136541203e-05,
+      "average_seconds": 9.860000136541203e-05,
+      "median_seconds": 9.860000136541203e-05,
+      "minimum_seconds": 9.860000136541203e-05,
+      "maximum_seconds": 9.860000136541203e-05,
+      "calls": 1,
+      "percent_of_wall_clock": 0.06536363750961786
+    }
+  },
+  "documents_processed_per_second": 6.629172069418129,
+  "chunks_processed_per_second": 6.629172069418129,
+  "documents_seen": 1,
+  "chunks_seen": 1,
+  "total_llm_calls": 2,
+  "failed_llm_calls": 0,
+  "retry_count": 0,
+  "input_tokens": null,
+  "output_tokens": null,
+  "parallel_metrics": {
+    "worker_count": 1,
+    "tasks": 1,
+    "failed_tasks": 0,
+    "task_wait_seconds": 0.14081140000052983
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "run_id": "ray-gpu-machine",
+  "backend": "ray",
+  "total_runtime_seconds": 0.01691710000159219,
+  "wall_clock_runtime_seconds": 0.01691710000159219,
+  "aggregate_stage_runtime_seconds": 0.0022475999940070324,
+  "stages": {
+    "dataset_discovery": {
+      "aggregate_seconds": 0.0022354999964591116,
+      "average_seconds": 0.0022354999964591116,
+      "median_seconds": 0.0022354999964591116,
+      "minimum_seconds": 0.0022354999964591116,
+      "maximum_seconds": 0.0022354999964591116,
+      "calls": 1,
+      "percent_of_wall_clock": 13.214439804982609
+    },
+    "dataset_validation": {
+      "aggregate_seconds": 1.2099997547920793e-05,
+      "average_seconds": 1.2099997547920793e-05,
+      "median_seconds": 1.2099997547920793e-05,
+      "minimum_seconds": 1.2099997547920793e-05,
+      "maximum_seconds": 1.2099997547920793e-05,
+      "calls": 1,
+      "percent_of_wall_clock": 0.07152524692046495
+    }
+  },
+  "documents_processed_per_second": 0.0,
+  "chunks_processed_per_second": 0.0,
+  "documents_seen": 0,
+  "chunks_seen": 0,
+  "total_llm_calls": 0,
+  "failed_llm_calls": 0,
+  "retry_count": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "parallel_metrics": {}
+}

@@ -47,8 +47,8 @@ class DatasetSupportTests(unittest.TestCase):
             timer.write(Path(directory))
             header = (Path(directory) / "stage_timings.csv").read_text(encoding="utf-8").splitlines()[0]
             self.assertEqual(header.split(","), [
-                "run_id", "dataset", "document_id", "chunk_id", "stage", "start_timestamp",
-                "end_timestamp", "duration_seconds", "items_processed", "success_count", "failure_count",
+                "run_id", "backend", "dataset", "document_id", "chunk_id", "stage", "worker_id",
+                "start_timestamp", "end_timestamp", "duration_seconds", "items_processed", "success_count", "failure_count",
             ])
 
 

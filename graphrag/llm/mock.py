@@ -3,6 +3,9 @@ from graphrag.llm.client import LLM
 
 class MockLLM(LLM):
 
+    def worker_spec(self) -> dict:
+        return {"kind": "mock"}
+
     def generate(self, prompt: str) -> str:
         if "GLOBAL MAP" in prompt:
             return "This community contributes evidence relevant to the global question."

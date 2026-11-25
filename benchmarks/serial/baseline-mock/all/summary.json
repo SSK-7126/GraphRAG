@@ -1,0 +1,37 @@
+{
+  "run_id": "baseline-mock",
+  "backend": "serial",
+  "total_runtime_seconds": 0.016037000001233537,
+  "wall_clock_runtime_seconds": 0.016037000001233537,
+  "aggregate_stage_runtime_seconds": 0.0019752999942284077,
+  "stages": {
+    "dataset_discovery": {
+      "aggregate_seconds": 0.001965399998880457,
+      "average_seconds": 0.001965399998880457,
+      "median_seconds": 0.001965399998880457,
+      "minimum_seconds": 0.001965399998880457,
+      "maximum_seconds": 0.001965399998880457,
+      "calls": 1,
+      "percent_of_wall_clock": 12.255409357917829
+    },
+    "dataset_validation": {
+      "aggregate_seconds": 9.899995347950608e-06,
+      "average_seconds": 9.899995347950608e-06,
+      "median_seconds": 9.899995347950608e-06,
+      "minimum_seconds": 9.899995347950608e-06,
+      "maximum_seconds": 9.899995347950608e-06,
+      "calls": 1,
+      "percent_of_wall_clock": 0.061732215172345936
+    }
+  },
+  "documents_processed_per_second": 0.0,
+  "chunks_processed_per_second": 0.0,
+  "documents_seen": 0,
+  "chunks_seen": 0,
+  "total_llm_calls": 0,
+  "failed_llm_calls": 0,
+  "retry_count": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "parallel_metrics": {}
+}

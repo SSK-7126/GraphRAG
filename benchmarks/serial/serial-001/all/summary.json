@@ -1,0 +1,37 @@
+{
+  "run_id": "serial-001",
+  "backend": "serial",
+  "total_runtime_seconds": 0.05373810000310186,
+  "wall_clock_runtime_seconds": 0.05373810000310186,
+  "aggregate_stage_runtime_seconds": 0.02705720000085421,
+  "stages": {
+    "dataset_discovery": {
+      "aggregate_seconds": 0.027031100005842745,
+      "average_seconds": 0.027031100005842745,
+      "median_seconds": 0.027031100005842745,
+      "minimum_seconds": 0.027031100005842745,
+      "maximum_seconds": 0.027031100005842745,
+      "calls": 1,
+      "percent_of_wall_clock": 50.30155514296646
+    },
+    "dataset_validation": {
+      "aggregate_seconds": 2.609999501146376e-05,
+      "average_seconds": 2.609999501146376e-05,
+      "median_seconds": 2.609999501146376e-05,
+      "minimum_seconds": 2.609999501146376e-05,
+      "maximum_seconds": 2.609999501146376e-05,
+      "calls": 1,
+      "percent_of_wall_clock": 0.048568883175916566
+    }
+  },
+  "documents_processed_per_second": 0.0,
+  "chunks_processed_per_second": 0.0,
+  "documents_seen": 0,
+  "chunks_seen": 0,
+  "total_llm_calls": 0,
+  "failed_llm_calls": 0,
+  "retry_count": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "parallel_metrics": {}
+}

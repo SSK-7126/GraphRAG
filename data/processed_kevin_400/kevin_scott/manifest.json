@@ -1,0 +1,103 @@
+{
+  "dataset": "kevin_scott",
+  "raw_dir": "C:\\Users\\sreek\\Sreekar\\GraphRAG\\GraphRAG\\data\\raw_kevin_400",
+  "documents": [
+    {
+      "id": "kevin_scott:bd063a715229",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind the Tech_Episode 29_Collier_Bloomberg_Transcript-part1.txt"
+    },
+    {
+      "id": "kevin_scott:861d3217bef3",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind the Tech_Episode 29_Collier_Bloomberg_Transcript-part10.txt"
+    },
+    {
+      "id": "kevin_scott:62bde136b554",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind the Tech_Episode 29_Collier_Bloomberg_Transcript-part11.txt"
+    },
+    {
+      "id": "kevin_scott:016200966168",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind the Tech_Episode 29_Collier_Bloomberg_Transcript-part12.txt"
+    },
+    {
+      "id": "kevin_scott:1d9dbf7bdeba",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind the Tech_Episode 29_Collier_Bloomberg_Transcript-part13.txt"
+    },
+    {
+      "id": "kevin_scott:be97d34be867",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind the Tech_Episode 29_Collier_Bloomberg_Transcript-part14.txt"
+    },
+    {
+      "id": "kevin_scott:a0870a716dcd",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind the Tech_Episode 29_Collier_Bloomberg_Transcript-part15.txt"
+    },
+    {
+      "id": "kevin_scott:3309e66f0929",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind the Tech_Episode 29_Collier_Bloomberg_Transcript-part16.txt"
+    },
+    {
+      "id": "kevin_scott:4f161cacd4c9",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind the Tech_Episode 29_Collier_Bloomberg_Transcript-part17.txt"
+    },
+    {
+      "id": "kevin_scott:745a7b6330eb",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind the Tech_Episode 29_Collier_Bloomberg_Transcript-part18.txt"
+    },
+    {
+      "id": "kevin_scott:90ee34a339e2",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind the Tech_Episode 29_Collier_Bloomberg_Transcript-part19.txt"
+    },
+    {
+      "id": "kevin_scott:4e61f3affc82",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind the Tech_Episode 29_Collier_Bloomberg_Transcript-part2.txt"
+    },
+    {
+      "id": "kevin_scott:44d5e4053445",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind the Tech_Episode 29_Collier_Bloomberg_Transcript-part20.txt"
+    },
+    {
+      "id": "kevin_scott:d3c9fbc4d8b4",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind the Tech_Episode 29_Collier_Bloomberg_Transcript-part21.txt"
+    },
+    {
+      "id": "kevin_scott:4e4b53571baa",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind the Tech_Episode 29_Collier_Bloomberg_Transcript-part22.txt"
+    },
+    {
+      "id": "kevin_scott:168c4e9baf98",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind the Tech_Episode 29_Collier_Bloomberg_Transcript-part23.txt"
+    },
+    {
+      "id": "kevin_scott:28ec2bdc015f",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind the Tech_Episode 29_Collier_Bloomberg_Transcript-part24.txt"
+    },
+    {
+      "id": "kevin_scott:f7cb5f9cf61d",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind the Tech_Episode 29_Collier_Bloomberg_Transcript-part25.txt"
+    },
+    {
+      "id": "kevin_scott:62ce81b575f1",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind the Tech_Episode 29_Collier_Bloomberg_Transcript-part26.txt"
+    },
+    {
+      "id": "kevin_scott:3038b1354fde",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind the Tech_Episode 29_Collier_Bloomberg_Transcript-part27.txt"
+    }
+  ],
+  "question_files": [
+    {
+      "relative_path": "Kevin Scott Questions.csv",
+      "kind": "benchmark",
+      "columns": [
+        "question_text",
+        "question_id"
+      ]
+    }
+  ],
+  "discovery_evidence": [
+    "podcast transcript filename/content pattern"
+  ],
+  "warnings": [],
+  "validation_issues": [
+    "Expected 1669 text documents but discovered 20."
+  ]
+}
