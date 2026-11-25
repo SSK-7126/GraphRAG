@@ -1,0 +1,37 @@
+{
+  "run_id": "4e883c90103744878a61394d3941c578",
+  "backend": "cuda",
+  "total_runtime_seconds": 0.002570630000263918,
+  "wall_clock_runtime_seconds": 0.002570630000263918,
+  "aggregate_stage_runtime_seconds": 0.0014990440031397156,
+  "stages": {
+    "dataset_discovery": {
+      "aggregate_seconds": 0.0014948990028642584,
+      "average_seconds": 0.0014948990028642584,
+      "median_seconds": 0.0014948990028642584,
+      "minimum_seconds": 0.0014948990028642584,
+      "maximum_seconds": 0.0014948990028642584,
+      "calls": 1,
+      "percent_of_wall_clock": 58.153020960261955
+    },
+    "dataset_validation": {
+      "aggregate_seconds": 4.145000275457278e-06,
+      "average_seconds": 4.145000275457278e-06,
+      "median_seconds": 4.145000275457278e-06,
+      "minimum_seconds": 4.145000275457278e-06,
+      "maximum_seconds": 4.145000275457278e-06,
+      "calls": 1,
+      "percent_of_wall_clock": 0.16124453052488005
+    }
+  },
+  "documents_processed_per_second": 0.0,
+  "chunks_processed_per_second": 0.0,
+  "documents_seen": 0,
+  "chunks_seen": 0,
+  "total_llm_calls": 0,
+  "failed_llm_calls": 0,
+  "retry_count": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "parallel_metrics": {}
+}

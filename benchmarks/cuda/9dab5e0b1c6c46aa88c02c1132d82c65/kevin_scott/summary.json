@@ -1,0 +1,81 @@
+{
+  "run_id": "9dab5e0b1c6c46aa88c02c1132d82c65",
+  "backend": "cuda",
+  "total_runtime_seconds": 1630.874534368002,
+  "wall_clock_runtime_seconds": 1630.874534368002,
+  "aggregate_stage_runtime_seconds": 0.04663716600043699,
+  "stages": {
+    "chunk_persistence": {
+      "aggregate_seconds": 0.0009662309967097826,
+      "average_seconds": 0.00032207699890326086,
+      "median_seconds": 0.00031441399914911017,
+      "minimum_seconds": 0.00021149899839656428,
+      "maximum_seconds": 0.0004403179991641082,
+      "calls": 3,
+      "percent_of_wall_clock": 5.924618824735143e-05
+    },
+    "chunking": {
+      "aggregate_seconds": 8.923800123739056e-05,
+      "average_seconds": 2.974600041246352e-05,
+      "median_seconds": 3.502500112517737e-05,
+      "minimum_seconds": 1.583199991728179e-05,
+      "maximum_seconds": 3.83810001949314e-05,
+      "calls": 3,
+      "percent_of_wall_clock": 5.471788255739253e-06
+    },
+    "file_loading": {
+      "aggregate_seconds": 0.0003718640000442974,
+      "average_seconds": 0.00012395466668143248,
+      "median_seconds": 0.00014543599900207482,
+      "minimum_seconds": 5.3938001656206325e-05,
+      "maximum_seconds": 0.00017248999938601628,
+      "calls": 3,
+      "percent_of_wall_clock": 2.2801508773843385e-05
+    },
+    "graph_persistence": {
+      "aggregate_seconds": 0.04473669199796859,
+      "average_seconds": 0.04473669199796859,
+      "median_seconds": 0.04473669199796859,
+      "minimum_seconds": 0.04473669199796859,
+      "maximum_seconds": 0.04473669199796859,
+      "calls": 1,
+      "percent_of_wall_clock": 0.00274311058608227
+    },
+    "graph_validation": {
+      "aggregate_seconds": 9.489900185144506e-05,
+      "average_seconds": 9.489900185144506e-05,
+      "median_seconds": 9.489900185144506e-05,
+      "minimum_seconds": 9.489900185144506e-05,
+      "maximum_seconds": 9.489900185144506e-05,
+      "calls": 1,
+      "percent_of_wall_clock": 5.81890267164055e-06
+    },
+    "text_cleaning": {
+      "aggregate_seconds": 0.000378242002625484,
+      "average_seconds": 0.000126080667541828,
+      "median_seconds": 0.00011678699956974015,
+      "minimum_seconds": 0.00011668400111375377,
+      "maximum_seconds": 0.0001447710019419901,
+      "calls": 3,
+      "percent_of_wall_clock": 2.319258745260013e-05
+    }
+  },
+  "documents_processed_per_second": 0.0018395038592975287,
+  "chunks_processed_per_second": 0.0,
+  "documents_seen": 3,
+  "chunks_seen": 0,
+  "total_llm_calls": 0,
+  "failed_llm_calls": 0,
+  "retry_count": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "parallel_metrics": {
+    "cuda": {
+      "available": true,
+      "device": "NVIDIA RTX 4000 Ada Generation",
+      "cuda_version": "12.8",
+      "total_memory_bytes": 20982726656,
+      "recommended_embedding_batch_size": 256
+    }
+  }
+}
