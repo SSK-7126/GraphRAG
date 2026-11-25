@@ -1,23 +1,23 @@
 {
-  "run_id": "b7cc1cb92715478c9ac94b5e77bc9c90",
-  "total_runtime_seconds": 4.160302099997352,
+  "run_id": "524883b1512f4f1b999863c4283a43f7",
+  "total_runtime_seconds": 0.18984228800013625,
   "stages": {
     "dataset_discovery": {
-      "total_seconds": 4.160290399995574,
-      "percent_of_total": 99.99971877038021,
-      "average_seconds": 4.160290399995574,
-      "median_seconds": 4.160290399995574,
-      "minimum_seconds": 4.160290399995574,
-      "maximum_seconds": 4.160290399995574,
+      "total_seconds": 0.1898381870000776,
+      "percent_of_total": 99.99783978580228,
+      "average_seconds": 0.1898381870000776,
+      "median_seconds": 0.1898381870000776,
+      "minimum_seconds": 0.1898381870000776,
+      "maximum_seconds": 0.1898381870000776,
       "calls": 1
     },
     "dataset_validation": {
-      "total_seconds": 1.170000177808106e-05,
-      "percent_of_total": 0.0002812296197934401,
-      "average_seconds": 1.170000177808106e-05,
-      "median_seconds": 1.170000177808106e-05,
-      "minimum_seconds": 1.170000177808106e-05,
-      "maximum_seconds": 1.170000177808106e-05,
+      "total_seconds": 4.101000058653881e-06,
+      "percent_of_total": 0.0021602141977191814,
+      "average_seconds": 4.101000058653881e-06,
+      "median_seconds": 4.101000058653881e-06,
+      "minimum_seconds": 4.101000058653881e-06,
+      "maximum_seconds": 4.101000058653881e-06,
       "calls": 1
     }
   },

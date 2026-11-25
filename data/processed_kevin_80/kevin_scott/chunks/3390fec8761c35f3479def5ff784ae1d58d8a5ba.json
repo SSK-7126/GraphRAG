@@ -1,0 +1,36 @@
+{
+  "document_id": "kevin_scott:c0c0435de76a",
+  "source_relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind-the-Tech_EP39_2021_Year-in-Review_Transcript-part25.txt",
+  "chunks": [
+    {
+      "id": "kevin_scott:c0c0435de76a:chunk:00001",
+      "position": 1,
+      "text": "Behind-the-Tech_EP39_2021_Year-in-Review_Transcript.txt aded and – and sort of evolved. And it took me a little bit. You know, I think – I think, Jacob, you know, you definitely stretched me a lot, because at the very beginning, it’d be like, oh my God, we can’t change that, you know, between the – between the shows. \n\nI remember the – actually, the very first show at Ronnie Scott’s, which we actually did as a – as a rehearsal show before the big Montreux show. And it was like five minutes befor"
+    },
+    {
+      "id": "kevin_scott:c0c0435de76a:chunk:00002",
+      "position": 2,
+      "text": " Montreux show. And it was like five minutes before the show started. And – and Jacob, you came up to me and said, “We need to change the playback,” or, “We need to change –” I forget exactly what it was. And I said, “No, no, we can’t change the playback right now.” (Laughter.)\n\nYeah, and it was – it was, like, the very first, you know – it was sort of the very first, like, sort of moment where we sort of had to say, okay, like, you know, we – we could change it, but every time we change somethi"
+    },
+    {
+      "id": "kevin_scott:c0c0435de76a:chunk:00003",
+      "position": 3,
+      "text": " could change it, but every time we change something, there’s been a problem. And – and maybe we’ll get good at changing things down the road, you know, and really flexible, but so far, every time we’ve changed something, there’s been, like, a little hiccup. So, we could change it, but there might be a little hiccup. We just – we just don’t know, and we can’t test. So, like, what should we do, you know?\n\nKEVIN SCOTT: Yeah. Well, what I’ve always tried to do with the technology products that my t"
+    },
+    {
+      "id": "kevin_scott:c0c0435de76a:chunk:00004",
+      "position": 4,
+      "text": "tried to do with the technology products that my teams and I have built is you’ve sort of got these two things. One is, like, the – the faster and higher quality you can gather feedback, the quicker you can learn and the better you can make the thing that you’re trying to produce. And so, engineering your environment in a way where you can get that high-quality feedback as quickly as possible is, like, super important. So, like that’s one thing. \n\nAnd then the other thing is, you know, if you ar"
+    },
+    {
+      "id": "kevin_scott:c0c0435de76a:chunk:00005",
+      "position": 5,
+      "text": "\n\nAnd then the other thing is, you know, if you are thoughtful enough, you can usually understand the sorts of risks that you need to be able to take. And then you build some systems to help you manage those risks, so that you can, like, walk right up to the edge of something, and even allow yourself to fail. \n\nLike, a thing that we have in operations is this thing called MTTR, mean time to recovery. So, with software, I mean, like, both of you know this, like, there’s no way to produce bug-free"
+    },
+    {
+      "id": "kevin_scott:c0c0435de76a:chunk:00006",
+      "position": 6,
+      "text": "now this, like, there’s no way to produce bug-free software. Like, it is literally, from a theory of computation perspective it is – these are undecidable problems. Like, you can’t – you can’t compute a solution to them, no matter how powerful a machine you"
+    }
+  ]
+}

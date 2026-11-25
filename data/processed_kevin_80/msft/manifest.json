@@ -1,0 +1,12 @@
+{
+  "dataset": "msft",
+  "raw_dir": "/home/aidslab/Documents/HPC/GraphRAG/data/raw_kevin_80",
+  "documents": [],
+  "question_files": [],
+  "discovery_evidence": [],
+  "warnings": [],
+  "validation_issues": [
+    "Expected 41 text documents but discovered 0.",
+    "Expected 2 question CSV file(s) but discovered 0."
+  ]
+}

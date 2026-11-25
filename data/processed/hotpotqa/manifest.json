@@ -1,6 +1,6 @@
 {
   "dataset": "hotpotqa",
-  "raw_dir": "C:\\Users\\sreek\\Sreekar\\GraphRAG\\GraphRAG\\data\\raw",
+  "raw_dir": "/home/aidslab/Documents/HPC/GraphRAG/data/raw",
   "documents": [
     {
       "id": "hotpotqa:7e71edf7669d",
@@ -21980,6 +21980,10 @@
   "discovery_evidence": [
     "flat test_N document pattern plus encyclopedic source text"
   ],
-  "warnings": [],
-  "validation_issues": []
+  "warnings": [
+    "Unclassified text files (not skipped): example.txt"
+  ],
+  "validation_issues": [
+    "Unclassified text files (not skipped): example.txt"
+  ]
 }

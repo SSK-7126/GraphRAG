@@ -1,0 +1,36 @@
+{
+  "document_id": "kevin_scott:d1c4d20296f3",
+  "source_relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind-the-Tech_EP39_2021_Year-in-Review_Transcript-part10.txt",
+  "chunks": [
+    {
+      "id": "kevin_scott:d1c4d20296f3:chunk:00001",
+      "position": 1,
+      "text": "Behind-the-Tech_EP39_2021_Year-in-Review_Transcript.txt because these models, like OpenAI’s GPT3, are incredibly difficult to train. So, having them behind an API, available on a cloud like Azure really helps democratize the power of those models, and gets it into the hands of people who can do the really interesting things with the models that the world needs them to do.\n\nCHRISTINA WARREN: Let’s listen to Kevin’s chat with Sam Altman.\n\n[MUSIC]\n\nKEVIN SCOTT: And like, one of the interesting thin"
+    },
+    {
+      "id": "kevin_scott:d1c4d20296f3:chunk:00002",
+      "position": 2,
+      "text": "KEVIN SCOTT: And like, one of the interesting things that’s happening right now with these, you know, computers that we’re building to train very big models is that we are – like, computer architecture’s all of a sudden interesting again, and it hasn’t been for, you know, 20 years, maybe, 15, like a while.\n\nSAM ALTMAN: Yeah. Yeah, that’s cool because there’s all these people that really want to work on that. They’ve had nothing to work on, which means we can get incredible talent focused on this"
+    },
+    {
+      "id": "kevin_scott:d1c4d20296f3:chunk:00003",
+      "position": 3,
+      "text": "means we can get incredible talent focused on this.\n\nKEVIN SCOTT: Yeah. Yeah, we’ve got all of these people who did high performance computing in the ‘90s who, you know, and like I – I was not an important person working on high performance computing in the ‘90s, but like, I was a compiler person. And like, I thought that none of the stuff that I learned in graduate school was ever going to be directly useful again. And like, here it is.\n\nSAM ALTMAN: Here we are. \n\nKEVIN SCOTT: It’s cool.\n\nSAM A"
+    },
+    {
+      "id": "kevin_scott:d1c4d20296f3:chunk:00004",
+      "position": 4,
+      "text": "MAN: Here we are. \n\nKEVIN SCOTT: It’s cool.\n\nSAM ALTMAN: It’s really cool.\n\nKEVIN SCOTT: It is really cool, and just a reminder of, like, how cyclical not just technology is, but history. I mean, like I don’t – how much do you think about, like, the historical corollaries for the disruption that we’re going through, like Industrial Revolution? You know, like, I think the steam engine’s a really fascinating example.\n\nSAM ALTMAN: That’s a great one.\n\nKEVIN SCOTT: Like, do you have any others that "
+    },
+    {
+      "id": "kevin_scott:d1c4d20296f3:chunk:00005",
+      "position": 5,
+      "text": ".\n\nKEVIN SCOTT: Like, do you have any others that – because I know you’ve thought a lot about this?\n\nSAM ALTMAN: Yeah. I mean, I think the analogs are the Agriculture Revolution, the Industrial Revolution, the Computer Revolution, and I think the AI revolution will be bigger than any of those three, bigger than all three of them together. \n\nI love reading sort of firsthand accounts of people at the time as they were kind of going through those. There’s this great book called Pandemonium which is"
+    },
+    {
+      "id": "kevin_scott:d1c4d20296f3:chunk:00006",
+      "position": 6,
+      "text": "here’s this great book called Pandemonium which is – it’s all primary source material of the Industrial Revolution as it was arriving. And many of the things that people say in that book could be said now about how people feel about AI. There’s no jobs; it’s going to take over; the machines are going to kill us; like, the future is going to be terrible; or"
+    }
+  ]
+}

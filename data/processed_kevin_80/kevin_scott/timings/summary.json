@@ -1,0 +1,96 @@
+{
+  "run_id": "408c1a5010994ab4b5e9040ae6e489c4",
+  "total_runtime_seconds": 2223.8335083179845,
+  "stages": {
+    "chunk_persistence": {
+      "total_seconds": 0.052542408997396706,
+      "percent_of_total": 0.0023626952647699605,
+      "average_seconds": 0.0010508481799479342,
+      "median_seconds": 0.00020301099993957905,
+      "minimum_seconds": 7.881499914219603e-05,
+      "maximum_seconds": 0.041115804999208194,
+      "calls": 50
+    },
+    "chunking": {
+      "total_seconds": 0.000941266003792407,
+      "percent_of_total": 4.232628028454979e-05,
+      "average_seconds": 1.882532007584814e-05,
+      "median_seconds": 1.8816998817783315e-05,
+      "minimum_seconds": 1.0809000741573982e-05,
+      "maximum_seconds": 2.813700120896101e-05,
+      "calls": 50
+    },
+    "entity_extraction": {
+      "total_seconds": 2044.7319349370046,
+      "percent_of_total": 91.94626878716092,
+      "average_seconds": 6.5118851431114795,
+      "median_seconds": 0.7123667864998424,
+      "minimum_seconds": 0.05263523299981898,
+      "maximum_seconds": 180.10078378899925,
+      "calls": 314
+    },
+    "entity_normalization": {
+      "total_seconds": 0.0018076239903166424,
+      "percent_of_total": 8.128414216061769e-05,
+      "average_seconds": 5.946131547094219e-06,
+      "median_seconds": 5.641499228659086e-06,
+      "minimum_seconds": 1.67500002135057e-06,
+      "maximum_seconds": 1.632499879633542e-05,
+      "calls": 304
+    },
+    "file_loading": {
+      "total_seconds": 0.00577720900218992,
+      "percent_of_total": 0.0002597860397633617,
+      "average_seconds": 0.00011554418004379841,
+      "median_seconds": 0.0001177179992737365,
+      "minimum_seconds": 4.3976000597467646e-05,
+      "maximum_seconds": 0.0001503589992353227,
+      "calls": 50
+    },
+    "graph_insertion": {
+      "total_seconds": 0.19679186599933018,
+      "percent_of_total": 0.008849217590402051,
+      "average_seconds": 0.0006473416644714808,
+      "median_seconds": 0.0005463215002237121,
+      "minimum_seconds": 1.651599995966535e-05,
+      "maximum_seconds": 0.0024316369999723975,
+      "calls": 304
+    },
+    "graph_persistence": {
+      "total_seconds": 0.07751665499927185,
+      "percent_of_total": 0.0034857220520029954,
+      "average_seconds": 0.025838884999757283,
+      "median_seconds": 0.028815247000238742,
+      "minimum_seconds": 0.015329628999097622,
+      "maximum_seconds": 0.033371778999935486,
+      "calls": 3
+    },
+    "relationship_extraction": {
+      "total_seconds": 178.7620361499885,
+      "percent_of_total": 8.038463108022716,
+      "average_seconds": 0.5880330136512779,
+      "median_seconds": 0.4327400564998243,
+      "minimum_seconds": 0.05395596200105501,
+      "maximum_seconds": 2.359185453000464,
+      "calls": 304
+    },
+    "text_cleaning": {
+      "total_seconds": 0.00416020199918421,
+      "percent_of_total": 0.00018707344698348457,
+      "average_seconds": 8.32040399836842e-05,
+      "median_seconds": 8.441399950243067e-05,
+      "minimum_seconds": 4.41270003648242e-05,
+      "maximum_seconds": 0.00010500399912416469,
+      "calls": 50
+    }
+  },
+  "documents_processed_per_second": 0.022483697548841202,
+  "chunks_processed_per_second": 0.13804990294988498,
+  "documents_seen": 50,
+  "chunks_seen": 307,
+  "total_llm_calls": 618,
+  "failed_llm_calls": 10,
+  "retry_count": 7,
+  "input_tokens": 128996,
+  "output_tokens": 52552
+}

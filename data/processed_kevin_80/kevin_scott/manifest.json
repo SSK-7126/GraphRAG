@@ -1,0 +1,506 @@
+{
+  "dataset": "kevin_scott",
+  "raw_dir": "/home/aidslab/Documents/HPC/GraphRAG/data/raw_kevin_80",
+  "documents": [
+    {
+      "id": "kevin_scott:11837dad8e36",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind-the-Tech_EP-38_StevenPinker_Transcript-part1.txt"
+    },
+    {
+      "id": "kevin_scott:0fac7226045f",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind-the-Tech_EP-38_StevenPinker_Transcript-part10.txt"
+    },
+    {
+      "id": "kevin_scott:c2cabaf5c008",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind-the-Tech_EP-38_StevenPinker_Transcript-part11.txt"
+    },
+    {
+      "id": "kevin_scott:f694f1766348",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind-the-Tech_EP-38_StevenPinker_Transcript-part12.txt"
+    },
+    {
+      "id": "kevin_scott:fb414fc06556",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind-the-Tech_EP-38_StevenPinker_Transcript-part13.txt"
+    },
+    {
+      "id": "kevin_scott:7ef0fe6a92bc",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind-the-Tech_EP-38_StevenPinker_Transcript-part14.txt"
+    },
+    {
+      "id": "kevin_scott:a67868282cd7",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind-the-Tech_EP-38_StevenPinker_Transcript-part15.txt"
+    },
+    {
+      "id": "kevin_scott:ec412e336935",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind-the-Tech_EP-38_StevenPinker_Transcript-part16.txt"
+    },
+    {
+      "id": "kevin_scott:f5a6640ec52c",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind-the-Tech_EP-38_StevenPinker_Transcript-part17.txt"
+    },
+    {
+      "id": "kevin_scott:24059b207d33",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind-the-Tech_EP-38_StevenPinker_Transcript-part18.txt"
+    },
+    {
+      "id": "kevin_scott:03858fe54916",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind-the-Tech_EP-38_StevenPinker_Transcript-part19.txt"
+    },
+    {
+      "id": "kevin_scott:b6e3ce9140fc",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind-the-Tech_EP-38_StevenPinker_Transcript-part2.txt"
+    },
+    {
+      "id": "kevin_scott:aab51396b4ca",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind-the-Tech_EP-38_StevenPinker_Transcript-part20.txt"
+    },
+    {
+      "id": "kevin_scott:596ab0b25c78",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind-the-Tech_EP-38_StevenPinker_Transcript-part21.txt"
+    },
+    {
+      "id": "kevin_scott:585df0a2c04b",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind-the-Tech_EP-38_StevenPinker_Transcript-part22.txt"
+    },
+    {
+      "id": "kevin_scott:464b5815d68f",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind-the-Tech_EP-38_StevenPinker_Transcript-part23.txt"
+    },
+    {
+      "id": "kevin_scott:775a6a65822b",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind-the-Tech_EP-38_StevenPinker_Transcript-part24.txt"
+    },
+    {
+      "id": "kevin_scott:80aa17ac9c34",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind-the-Tech_EP-38_StevenPinker_Transcript-part25.txt"
+    },
+    {
+      "id": "kevin_scott:bb43b38a5d3b",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind-the-Tech_EP-38_StevenPinker_Transcript-part26.txt"
+    },
+    {
+      "id": "kevin_scott:0479aeb4386f",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind-the-Tech_EP-38_StevenPinker_Transcript-part27.txt"
+    },
+    {
+      "id": "kevin_scott:8b3106a06a6f",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind-the-Tech_EP-38_StevenPinker_Transcript-part3.txt"
+    },
+    {
+      "id": "kevin_scott:047e369ada7c",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind-the-Tech_EP-38_StevenPinker_Transcript-part4.txt"
+    },
+    {
+      "id": "kevin_scott:153bdff9a70c",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind-the-Tech_EP-38_StevenPinker_Transcript-part5.txt"
+    },
+    {
+      "id": "kevin_scott:7bd4b914f6a0",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind-the-Tech_EP-38_StevenPinker_Transcript-part6.txt"
+    },
+    {
+      "id": "kevin_scott:de484959561e",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind-the-Tech_EP-38_StevenPinker_Transcript-part7.txt"
+    },
+    {
+      "id": "kevin_scott:c5d54ee8406d",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind-the-Tech_EP-38_StevenPinker_Transcript-part8.txt"
+    },
+    {
+      "id": "kevin_scott:8120ecd4744b",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind-the-Tech_EP-38_StevenPinker_Transcript-part9.txt"
+    },
+    {
+      "id": "kevin_scott:343714f46933",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind-the-Tech_EP39_2021_Year-in-Review_Transcript-part1.txt"
+    },
+    {
+      "id": "kevin_scott:d1c4d20296f3",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind-the-Tech_EP39_2021_Year-in-Review_Transcript-part10.txt"
+    },
+    {
+      "id": "kevin_scott:a03fadd72b12",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind-the-Tech_EP39_2021_Year-in-Review_Transcript-part11.txt"
+    },
+    {
+      "id": "kevin_scott:4012b0dd593b",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind-the-Tech_EP39_2021_Year-in-Review_Transcript-part12.txt"
+    },
+    {
+      "id": "kevin_scott:89541e260d12",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind-the-Tech_EP39_2021_Year-in-Review_Transcript-part13.txt"
+    },
+    {
+      "id": "kevin_scott:d08492b4efd5",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind-the-Tech_EP39_2021_Year-in-Review_Transcript-part14.txt"
+    },
+    {
+      "id": "kevin_scott:3da22e749208",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind-the-Tech_EP39_2021_Year-in-Review_Transcript-part15.txt"
+    },
+    {
+      "id": "kevin_scott:1cea67a0a4f6",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind-the-Tech_EP39_2021_Year-in-Review_Transcript-part16.txt"
+    },
+    {
+      "id": "kevin_scott:2230026698a8",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind-the-Tech_EP39_2021_Year-in-Review_Transcript-part17.txt"
+    },
+    {
+      "id": "kevin_scott:6ce90d9c29b7",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind-the-Tech_EP39_2021_Year-in-Review_Transcript-part18.txt"
+    },
+    {
+      "id": "kevin_scott:b2e136356bef",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind-the-Tech_EP39_2021_Year-in-Review_Transcript-part19.txt"
+    },
+    {
+      "id": "kevin_scott:aac9b5c9f164",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind-the-Tech_EP39_2021_Year-in-Review_Transcript-part2.txt"
+    },
+    {
+      "id": "kevin_scott:35ae53c97ad2",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind-the-Tech_EP39_2021_Year-in-Review_Transcript-part20.txt"
+    },
+    {
+      "id": "kevin_scott:517ee258d801",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind-the-Tech_EP39_2021_Year-in-Review_Transcript-part21.txt"
+    },
+    {
+      "id": "kevin_scott:27b3654f675c",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind-the-Tech_EP39_2021_Year-in-Review_Transcript-part22.txt"
+    },
+    {
+      "id": "kevin_scott:c17bbaa3f85c",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind-the-Tech_EP39_2021_Year-in-Review_Transcript-part23.txt"
+    },
+    {
+      "id": "kevin_scott:0c48f0aeb5eb",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind-the-Tech_EP39_2021_Year-in-Review_Transcript-part24.txt"
+    },
+    {
+      "id": "kevin_scott:c0c0435de76a",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind-the-Tech_EP39_2021_Year-in-Review_Transcript-part25.txt"
+    },
+    {
+      "id": "kevin_scott:0e5620a2ed47",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind-the-Tech_EP39_2021_Year-in-Review_Transcript-part26.txt"
+    },
+    {
+      "id": "kevin_scott:5111195f518d",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind-the-Tech_EP39_2021_Year-in-Review_Transcript-part27.txt"
+    },
+    {
+      "id": "kevin_scott:a81a0ce239ff",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind-the-Tech_EP39_2021_Year-in-Review_Transcript-part28.txt"
+    },
+    {
+      "id": "kevin_scott:1d61c4e9bd14",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind-the-Tech_EP39_2021_Year-in-Review_Transcript-part29.txt"
+    },
+    {
+      "id": "kevin_scott:e2c7c864cd29",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Behind-the-Tech_EP39_2021_Year-in-Review_Transcript-part30.txt"
+    }
+  ],
+  "question_files": [
+    {
+      "relative_path": "Kevin Scott Questions.csv",
+      "kind": "benchmark",
+      "columns": [
+        "question_text",
+        "question_id"
+      ]
+    }
+  ],
+  "discovery_evidence": [
+    "podcast transcript filename/content pattern"
+  ],
+  "warnings": [],
+  "validation_issues": [
+    "Expected 1669 text documents but discovered 50."
+  ],
+  "processing_state": {
+    "completed_document_ids": [
+      "kevin_scott:03858fe54916",
+      "kevin_scott:0479aeb4386f",
+      "kevin_scott:0c48f0aeb5eb",
+      "kevin_scott:0e5620a2ed47",
+      "kevin_scott:0fac7226045f",
+      "kevin_scott:11837dad8e36",
+      "kevin_scott:153bdff9a70c",
+      "kevin_scott:1cea67a0a4f6",
+      "kevin_scott:1d61c4e9bd14",
+      "kevin_scott:2230026698a8",
+      "kevin_scott:24059b207d33",
+      "kevin_scott:27b3654f675c",
+      "kevin_scott:343714f46933",
+      "kevin_scott:35ae53c97ad2",
+      "kevin_scott:3da22e749208",
+      "kevin_scott:4012b0dd593b",
+      "kevin_scott:464b5815d68f",
+      "kevin_scott:5111195f518d",
+      "kevin_scott:517ee258d801",
+      "kevin_scott:585df0a2c04b",
+      "kevin_scott:596ab0b25c78",
+      "kevin_scott:6ce90d9c29b7",
+      "kevin_scott:7bd4b914f6a0",
+      "kevin_scott:7ef0fe6a92bc",
+      "kevin_scott:80aa17ac9c34",
+      "kevin_scott:8120ecd4744b",
+      "kevin_scott:89541e260d12",
+      "kevin_scott:8b3106a06a6f",
+      "kevin_scott:a03fadd72b12",
+      "kevin_scott:a67868282cd7",
+      "kevin_scott:aab51396b4ca",
+      "kevin_scott:aac9b5c9f164",
+      "kevin_scott:b2e136356bef",
+      "kevin_scott:b6e3ce9140fc",
+      "kevin_scott:bb43b38a5d3b",
+      "kevin_scott:c0c0435de76a",
+      "kevin_scott:c17bbaa3f85c",
+      "kevin_scott:c2cabaf5c008",
+      "kevin_scott:c5d54ee8406d",
+      "kevin_scott:d08492b4efd5",
+      "kevin_scott:d1c4d20296f3",
+      "kevin_scott:de484959561e",
+      "kevin_scott:e2c7c864cd29",
+      "kevin_scott:ec412e336935",
+      "kevin_scott:f5a6640ec52c",
+      "kevin_scott:f694f1766348",
+      "kevin_scott:fb414fc06556"
+    ],
+    "failed_documents": {
+      "kevin_scott:775a6a65822b": "TimeoutError: timed out",
+      "kevin_scott:047e369ada7c": "TimeoutError: timed out",
+      "kevin_scott:a81a0ce239ff": "TimeoutError: timed out"
+    },
+    "rejected_relationships": {
+      "kevin_scott:11837dad8e36|kevin_scott:11837dad8e36:chunk:00003": [
+        "Relationship 12 refers to an entity absent from this chunk: 'Steven Pinker' -> 'author'",
+        "Relationship 13 refers to an entity absent from this chunk: 'Steven Pinker' -> '12 books'",
+        "Relationship 14 refers to an entity absent from this chunk: 'Steven Pinker' -> 'latest book published this September'"
+      ],
+      "kevin_scott:11837dad8e36|kevin_scott:11837dad8e36:chunk:00004": [
+        "Relationship 1 refers to an entity absent from this chunk: 'Montreal' -> 'STEVEN PINKER'"
+      ],
+      "kevin_scott:11837dad8e36|kevin_scott:11837dad8e36:chunk:00005": [
+        "Relationship 2 refers to an entity absent from this chunk: 'PINKER' -> 'science'"
+      ],
+      "kevin_scott:c2cabaf5c008|kevin_scott:c2cabaf5c008:chunk:00005": [
+        "Relationship 1 refers to an entity absent from this chunk: 'computer science' -> 'rational processes'"
+      ],
+      "kevin_scott:f694f1766348|kevin_scott:f694f1766348:chunk:00002": [
+        "Relationship 1 refers to an entity absent from this chunk: 'problems' -> 'evil people'"
+      ],
+      "kevin_scott:f694f1766348|kevin_scott:f694f1766348:chunk:00003": [
+        "Relationship 1 refers to an entity absent from this chunk: 'problem solving' -> 'looking at our problems from a mindset of problem solving'"
+      ],
+      "kevin_scott:f694f1766348|kevin_scott:f694f1766348:chunk:00006": [
+        "Relationship 1 refers to an entity absent from this chunk: 'you' -> 'us'"
+      ],
+      "kevin_scott:fb414fc06556|kevin_scott:fb414fc06556:chunk:00004": [
+        "Relationship 3 refers to an entity absent from this chunk: 'social discount rate' -> 'poor judgments'"
+      ],
+      "kevin_scott:fb414fc06556|kevin_scott:fb414fc06556:chunk:00005": [
+        "Relationship 1 refers to an entity absent from this chunk: 'you' -> 'me'"
+      ],
+      "kevin_scott:7ef0fe6a92bc|kevin_scott:7ef0fe6a92bc:chunk:00001": [
+        "Relationship 1 refers to an entity absent from this chunk: 'Odysseus' -> 'mass'"
+      ],
+      "kevin_scott:7ef0fe6a92bc|kevin_scott:7ef0fe6a92bc:chunk:00002": [
+        "Relationship 1 refers to an entity absent from this chunk: 'Cass Sunstein' -> ' Libertarian paternalism'"
+      ],
+      "kevin_scott:7ef0fe6a92bc|kevin_scott:7ef0fe6a92bc:chunk:00003": [
+        "Relationship 1 refers to an entity absent from this chunk: 'Maoist' -> 'coercion'",
+        "Relationship 2 refers to an entity absent from this chunk: 'defi' -> 'opting out'"
+      ],
+      "kevin_scott:24059b207d33|kevin_scott:24059b207d33:chunk:00003": [
+        "Relationship 1 refers to an entity absent from this chunk: 'Bill Gates' -> 'vaccine'"
+      ],
+      "kevin_scott:24059b207d33|kevin_scott:24059b207d33:chunk:00006": [
+        "Relationship 1 refers to an entity absent from this chunk: 'Enlightenment' -> 'scientific revolution'",
+        "Relationship 2 refers to an entity absent from this chunk: 'Enlightenment' -> 'part of human nature'"
+      ],
+      "kevin_scott:03858fe54916|kevin_scott:03858fe54916:chunk:00001": [
+        "Relationship 1 refers to an entity absent from this chunk: 'human nature' -> 'beliefs'"
+      ],
+      "kevin_scott:b6e3ce9140fc|kevin_scott:b6e3ce9140fc:chunk:00001": [
+        "Relationship 1 refers to an entity absent from this chunk: 'human nature' -> 'cooperative'"
+      ],
+      "kevin_scott:b6e3ce9140fc|kevin_scott:b6e3ce9140fc:chunk:00007": [
+        "Relationship 1 refers to an entity absent from this chunk: 'I' -> 'The Language Instinct'"
+      ],
+      "kevin_scott:aab51396b4ca|kevin_scott:aab51396b4ca:chunk:00004": [
+        "Relationship 1 refers to an entity absent from this chunk: 'KEVIN SCOTT' -> 'Enlightenment Now'",
+        "Relationship 2 refers to an entity absent from this chunk: 'KEVIN SCOTT' -> 'zero'"
+      ],
+      "kevin_scott:aab51396b4ca|kevin_scott:aab51396b4ca:chunk:00005": [
+        "Relationship 1 refers to an entity absent from this chunk: 'PINKER' -> 'criticism'"
+      ],
+      "kevin_scott:596ab0b25c78|kevin_scott:596ab0b25c78:chunk:00005": [
+        "Relationship 1 refers to an entity absent from this chunk: 'KEVIN SCOTT' -> 'I often describe myself to folks as a short-term pessimist, long-term optimist'"
+      ],
+      "kevin_scott:596ab0b25c78|kevin_scott:596ab0b25c78:chunk:00006": [
+        "Relationship 1 refers to an entity absent from this chunk: 'rationality' -> 'process'"
+      ],
+      "kevin_scott:585df0a2c04b|kevin_scott:585df0a2c04b:chunk:00005": [
+        "Relationship 1 refers to an entity absent from this chunk: 'progress' -> 'beliefs'"
+      ],
+      "kevin_scott:585df0a2c04b|kevin_scott:585df0a2c04b:chunk:00006": [
+        "Relationship 3 refers to an entity absent from this chunk: 'time' -> 'talk about'",
+        "Relationship 4 refers to an entity absent from this chunk: 'chemistry' -> 'evaluate an idea'"
+      ],
+      "kevin_scott:464b5815d68f|kevin_scott:464b5815d68f:chunk:00002": [
+        "Relationship 1 refers to an entity absent from this chunk: 'assertion' -> 'right chemistry'"
+      ],
+      "kevin_scott:464b5815d68f|kevin_scott:464b5815d68f:chunk:00006": [
+        "Relationship 1 refers to an entity absent from this chunk: 'Pinker' -> 'truth-seeking processes'",
+        "Relationship 2 refers to an entity absent from this chunk: 'Pinker' -> 'good science'",
+        "Relationship 3 refers to an entity absent from this chunk: 'Pinker' -> 'bad science'"
+      ],
+      "kevin_scott:775a6a65822b|kevin_scott:775a6a65822b:chunk:00003": [
+        "Relationship 1 refers to an entity absent from this chunk: 'CHRISTINA WARREN' -> 'KEVIN SCOTT'"
+      ],
+      "kevin_scott:80aa17ac9c34|kevin_scott:80aa17ac9c34:chunk:00002": [
+        "Relationship 1 refers to an entity absent from this chunk: 'tech' -> 'pattern matching'",
+        "Relationship 2 refers to an entity absent from this chunk: 'engagement' -> 'pattern matching'",
+        "Relationship 3 refers to an entity absent from this chunk: 'stimuli' -> 'pattern matching'",
+        "Relationship 4 refers to an entity absent from this chunk: 'inputs' -> 'pattern matching'"
+      ],
+      "kevin_scott:bb43b38a5d3b|kevin_scott:bb43b38a5d3b:chunk:00003": [
+        "Relationship 1 refers to an entity absent from this chunk: 'Steven Pinker' -> 'Rationality (book)'"
+      ],
+      "kevin_scott:0479aeb4386f|kevin_scott:0479aeb4386f:chunk:00003": [
+        "Relationship 1 refers to an entity absent from this chunk: 'Kevin Scott' -> 'Chief Technology Officer for Microsoft'"
+      ],
+      "kevin_scott:8b3106a06a6f|kevin_scott:8b3106a06a6f:chunk:00001": [
+        "Relationship 1 refers to an entity absent from this chunk: 'StevenPinker' -> 'The Language Instinct'"
+      ],
+      "kevin_scott:153bdff9a70c|kevin_scott:153bdff9a70c:chunk:00005": [
+        "Relationship 1 refers to an entity absent from this chunk: 'Sagan syndrome' -> 'Sagan'"
+      ],
+      "kevin_scott:7bd4b914f6a0|kevin_scott:7bd4b914f6a0:chunk:00007": [
+        "Relationship 1 refers to an entity absent from this chunk: 'e – scanning a printed page? ' -> 'Francis'",
+        "Relationship 2 refers to an entity absent from this chunk: 'And for academics, the – and I got this from a wonderful book by Mark Turner and Francis' -> 'Mark Turner'"
+      ],
+      "kevin_scott:de484959561e|kevin_scott:de484959561e:chunk:00005": [
+        "Relationship 1 refers to an entity absent from this chunk: 'Ph.D. advisor' -> 'writing'"
+      ],
+      "kevin_scott:c5d54ee8406d|kevin_scott:c5d54ee8406d:chunk:00004": [
+        "Relationship 1 refers to an entity absent from this chunk: 'ertips' -> 'TCR 00:34:00'"
+      ],
+      "kevin_scott:c5d54ee8406d|kevin_scott:c5d54ee8406d:chunk:00006": [
+        "Relationship 1 refers to an entity absent from this chunk: 'TCR' -> 'KEVIN SCOTT'",
+        "Relationship 2 refers to an entity absent from this chunk: 'TCR' -> '13-year-old daughter'"
+      ],
+      "kevin_scott:8120ecd4744b|kevin_scott:8120ecd4744b:chunk:00001": [
+        "Relationship 1 refers to an entity absent from this chunk: 'light?' -> 'you'"
+      ],
+      "kevin_scott:8120ecd4744b|kevin_scott:8120ecd4744b:chunk:00003": [
+        "Relationship 1 refers to an entity absent from this chunk: 'e modeling' -> 'good advice'",
+        "Relationship 2 refers to an entity absent from this chunk: 'wow, what a great sentence' -> 'great sentence'",
+        "Relationship 3 refers to an entity absent from this chunk: 'wow, what a great paragraph' -> 'great paragraph'",
+        "Relationship 4 refers to an entity absent from this chunk: 'wow, what a great writer this is' -> 'great writer'",
+        "Relationship 5 refers to an entity absent from this chunk: 'pause and savor the good prose' -> 'good prose'",
+        "Relationship 6 refers to an entity absent from this chunk: 'reverse engineer it' -> 'prose'",
+        "Relationship 7 refers to an entity absent from this chunk: 'good prose' -> 'writer'",
+        "Relationship 8 refers to an entity absent from this chunk: 'good writer' -> 'writer'"
+      ],
+      "kevin_scott:8120ecd4744b|kevin_scott:8120ecd4744b:chunk:00004": [
+        "Relationship 1 refers to an entity absent from this chunk: 'writer' -> 'doing'",
+        "Relationship 2 refers to an entity absent from this chunk: 'writer' -> 'thinking'",
+        "Relationship 3 refers to an entity absent from this chunk: 'writer' -> 'resonate'"
+      ],
+      "kevin_scott:8120ecd4744b|kevin_scott:8120ecd4744b:chunk:00006": [
+        "Relationship 1 refers to an entity absent from this chunk: 'book' -> 'Rationality: What It Is, Why It Seems Scarce, Why It Matters'"
+      ],
+      "kevin_scott:343714f46933|kevin_scott:343714f46933:chunk:00005": [
+        "Relationship 1 refers to an entity absent from this chunk: 'AI experts' -> 'ad a line-up of awesome guests this last year'",
+        "Relationship 2 refers to an entity absent from this chunk: 'bioengineers' -> 'ad a line-up of awesome guests this last year'",
+        "Relationship 3 refers to an entity absent from this chunk: 'entrepreneurs' -> 'ad a line-up of awesome guests this last year'",
+        "Relationship 4 refers to an entity absent from this chunk: 'digital influencers' -> 'ad a line-up of awesome guests this last year'",
+        "Relationship 5 refers to an entity absent from this chunk: 'Mae Jemison' -> 'We met Mae Jemison'",
+        "Relationship 6 refers to an entity absent from this chunk: 'Ashley Llorens' -> 'We chatted with scientist Ashley Llorens'",
+        "Relationship 7 refers to an entity absent from this chunk: 'Jacob Collier' -> 'And we spent time with the Grammy-award winning Jacob Collier'",
+        "Relationship 8 refers to an entity absent from this chunk: 'Ben Bloomberg' -> 'And we spent time with the Grammy-award winning Jacob Collier and his collaborator, Ben Bloomberg'"
+      ],
+      "kevin_scott:d1c4d20296f3|kevin_scott:d1c4d20296f3:chunk:00006": [
+        "Relationship 1 refers to an entity absent from this chunk: 'Pandemonium' -> 'AI'",
+        "Relationship 2 refers to an entity absent from this chunk: 'Pandemonium' -> 'AI'",
+        "Relationship 3 refers to an entity absent from this chunk: 'Pandemonium' -> 'AI'",
+        "Relationship 4 refers to an entity absent from this chunk: 'Pandemonium' -> 'AI'"
+      ],
+      "kevin_scott:a03fadd72b12|kevin_scott:a03fadd72b12:chunk:00004": [
+        "Relationship 1 refers to an entity absent from this chunk: 'SAM ALTMAN' -> 'LANGUAGE MODELS'",
+        "Relationship 2 refers to an entity absent from this chunk: 'SAM ALTMAN' -> 'INTELLIGENCE'"
+      ],
+      "kevin_scott:a03fadd72b12|kevin_scott:a03fadd72b12:chunk:00006": [
+        "Relationship 1 refers to an entity absent from this chunk: 'Commander Data' -> 'useful stuff'"
+      ],
+      "kevin_scott:4012b0dd593b|kevin_scott:4012b0dd593b:chunk:00002": [
+        "Relationship 1 refers to an entity absent from this chunk: 'SAM ALTMAN' -> 'KEVIN SCOTT'"
+      ],
+      "kevin_scott:89541e260d12|kevin_scott:89541e260d12:chunk:00005": [
+        "Relationship 2 refers to an entity absent from this chunk: 'soil' -> 'plants'"
+      ],
+      "kevin_scott:d08492b4efd5|kevin_scott:d08492b4efd5:chunk:00004": [
+        "Relationship 1 refers to an entity absent from this chunk: 'understanding the microbiome' -> 'understanding investing financially'",
+        "Relationship 2 refers to an entity absent from this chunk: 'human behavior' -> 'challenges that we face'"
+      ],
+      "kevin_scott:d08492b4efd5|kevin_scott:d08492b4efd5:chunk:00005": [
+        "Relationship 5 refers to an entity absent from this chunk: 'Ashley Llorens' -> 'music industry'",
+        "Relationship 6 refers to an entity absent from this chunk: 'Ashley Llorens' -> 'touri'"
+      ],
+      "kevin_scott:d08492b4efd5|kevin_scott:d08492b4efd5:chunk:00007": [
+        "Relationship 1 refers to an entity absent from this chunk: 'director' -> 'for'"
+      ],
+      "kevin_scott:1cea67a0a4f6|kevin_scott:1cea67a0a4f6:chunk:00001": [
+        "Relationship 2 refers to an entity absent from this chunk: 'KEVIN SCOTT' -> 'unintended consequences'"
+      ],
+      "kevin_scott:1cea67a0a4f6|kevin_scott:1cea67a0a4f6:chunk:00005": [
+        "Relationship 1 refers to an entity absent from this chunk: 'intelligence' -> 'achieve goals'",
+        "Relationship 2 refers to an entity absent from this chunk: 'perception' -> 'understanding of the world around you'"
+      ],
+      "kevin_scott:2230026698a8|kevin_scott:2230026698a8:chunk:00004": [
+        "Relationship 3 refers to an entity absent from this chunk: 'Black Girls Code' -> 'celebration'",
+        "Relationship 5 refers to an entity absent from this chunk: 'Black Girls Code' -> 'partnered organization'",
+        "Relationship 6 refers to an entity absent from this chunk: 'Black Girls Code' -> 'celebration'"
+      ],
+      "kevin_scott:2230026698a8|kevin_scott:2230026698a8:chunk:00006": [
+        "Relationship 1 refers to an entity absent from this chunk: 'women' -> 'women of color'"
+      ],
+      "kevin_scott:2230026698a8|kevin_scott:2230026698a8:chunk:00007": [
+        "Relationship 1 refers to an entity absent from this chunk: 'STEM fields' -> 'irls'"
+      ],
+      "kevin_scott:6ce90d9c29b7|kevin_scott:6ce90d9c29b7:chunk:00005": [
+        "Relationship 1 refers to an entity absent from this chunk: 'Kimberly Bryant' -> 'Black Girls Code'"
+      ],
+      "kevin_scott:aac9b5c9f164|kevin_scott:aac9b5c9f164:chunk:00006": [
+        "Relationship 1 refers to an entity absent from this chunk: 'r' -> 'F5'"
+      ],
+      "kevin_scott:27b3654f675c|kevin_scott:27b3654f675c:chunk:00001": [
+        "Relationship 1 refers to an entity absent from this chunk: 'technical people' -> 'creative people'"
+      ],
+      "kevin_scott:c17bbaa3f85c|kevin_scott:c17bbaa3f85c:chunk:00005": [
+        "Relationship 1 refers to an entity absent from this chunk: 'most' -> 'Ben'",
+        "Relationship 2 refers to an entity absent from this chunk: 'and then sort of building around that' -> 'Ben'",
+        "Relationship 3 refers to an entity absent from this chunk: 'even over the course of that one tour' -> 'Ben'"
+      ],
+      "kevin_scott:0c48f0aeb5eb|kevin_scott:0c48f0aeb5eb:chunk:00001": [
+        "Relationship 1 refers to an entity absent from this chunk: 'I' -> 'Ben'"
+      ],
+      "kevin_scott:c0c0435de76a|kevin_scott:c0c0435de76a:chunk:00003": [
+        "Relationship 2 refers to an entity absent from this chunk: 'Kevin Scott' -> 'change'",
+        "Relationship 3 refers to an entity absent from this chunk: 'Kevin Scott' -> 'flexibility'",
+        "Relationship 4 refers to an entity absent from this chunk: 'Kevin Scott' -> 'testing'"
+      ],
+      "kevin_scott:1d61c4e9bd14|kevin_scott:1d61c4e9bd14:chunk:00006": [
+        "Relationship 1 refers to an entity absent from this chunk: 'Kevin' -> 'Christina Warren'"
+      ],
+      "kevin_scott:e2c7c864cd29|kevin_scott:e2c7c864cd29:chunk:00002": [
+        "Relationship 1 refers to an entity absent from this chunk: 'Justine Ezarik' -> 'KEVIN SCOTT'"
+      ]
+    }
+  }
+}

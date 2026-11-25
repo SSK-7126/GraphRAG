@@ -1,6 +1,6 @@
 {
   "dataset": "kevin_scott",
-  "raw_dir": "C:\\Users\\sreek\\Sreekar\\GraphRAG\\GraphRAG\\data\\raw",
+  "raw_dir": "/home/aidslab/Documents/HPC/GraphRAG/data/raw",
   "documents": [
     {
       "id": "kevin_scott:bd063a715229",
@@ -2003,130 +2003,6 @@
       "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-11_ Behind_the_Tech_Kevin Scott_Podcast_with_Fei-Fei-Li-part9.txt"
     },
     {
-      "id": "kevin_scott:df1b410a6a64",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part1.txt"
-    },
-    {
-      "id": "kevin_scott:028943169306",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part10.txt"
-    },
-    {
-      "id": "kevin_scott:d5e2ce112f8c",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part11.txt"
-    },
-    {
-      "id": "kevin_scott:e73127a3cec8",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part12.txt"
-    },
-    {
-      "id": "kevin_scott:e9aba4d93c98",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part13.txt"
-    },
-    {
-      "id": "kevin_scott:6ae181782ebb",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part14.txt"
-    },
-    {
-      "id": "kevin_scott:e92689281a60",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part15.txt"
-    },
-    {
-      "id": "kevin_scott:11d4d452692a",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part16.txt"
-    },
-    {
-      "id": "kevin_scott:d150ee58a66e",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part17.txt"
-    },
-    {
-      "id": "kevin_scott:39ee6ca9341f",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part18.txt"
-    },
-    {
-      "id": "kevin_scott:afbe417fc1e6",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part19.txt"
-    },
-    {
-      "id": "kevin_scott:786326420c87",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part2.txt"
-    },
-    {
-      "id": "kevin_scott:536562b6dd89",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part20.txt"
-    },
-    {
-      "id": "kevin_scott:a9cf449be1e2",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part21.txt"
-    },
-    {
-      "id": "kevin_scott:90accf621ebe",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part22.txt"
-    },
-    {
-      "id": "kevin_scott:8d8d62622c9e",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part23.txt"
-    },
-    {
-      "id": "kevin_scott:d911ebc3f425",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part24.txt"
-    },
-    {
-      "id": "kevin_scott:e6ed4bb8d716",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part25.txt"
-    },
-    {
-      "id": "kevin_scott:dbb7d0ee86db",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part26.txt"
-    },
-    {
-      "id": "kevin_scott:49326b702976",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part27.txt"
-    },
-    {
-      "id": "kevin_scott:935f4b106ae8",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part28.txt"
-    },
-    {
-      "id": "kevin_scott:f01fbe037e11",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part29.txt"
-    },
-    {
-      "id": "kevin_scott:4776c7a9c9b7",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part3.txt"
-    },
-    {
-      "id": "kevin_scott:72ed4215322f",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part30.txt"
-    },
-    {
-      "id": "kevin_scott:d9ed75fe4fc4",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part31.txt"
-    },
-    {
-      "id": "kevin_scott:6339c6b42bd4",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part4.txt"
-    },
-    {
-      "id": "kevin_scott:7d6f564773b3",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part5.txt"
-    },
-    {
-      "id": "kevin_scott:7a38a3ecd30c",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part6.txt"
-    },
-    {
-      "id": "kevin_scott:e1130eedaafe",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part7.txt"
-    },
-    {
-      "id": "kevin_scott:386a68e8f827",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part8.txt"
-    },
-    {
-      "id": "kevin_scott:7b437a2afd6b",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part9.txt"
-    },
-    {
       "id": "kevin_scott:0032444c2d6d",
       "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-13_ Behind_the_Tech_Kevin_Scott_Podcast_with_Sam-Altman-part1.txt"
     },
@@ -4055,102 +3931,6 @@
       "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-40_Behind_the_Tech_DanielaRus_Transcript (1)-part9.txt"
     },
     {
-      "id": "kevin_scott:324efae000d6",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-41-Behind_The_Tech-Neal_Stephenson-FINAL_2-part1.txt"
-    },
-    {
-      "id": "kevin_scott:6f407e68fc92",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-41-Behind_The_Tech-Neal_Stephenson-FINAL_2-part10.txt"
-    },
-    {
-      "id": "kevin_scott:28731f46349b",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-41-Behind_The_Tech-Neal_Stephenson-FINAL_2-part11.txt"
-    },
-    {
-      "id": "kevin_scott:61803bcf50f4",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-41-Behind_The_Tech-Neal_Stephenson-FINAL_2-part12.txt"
-    },
-    {
-      "id": "kevin_scott:304587bd18a9",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-41-Behind_The_Tech-Neal_Stephenson-FINAL_2-part13.txt"
-    },
-    {
-      "id": "kevin_scott:72dc87e0ca38",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-41-Behind_The_Tech-Neal_Stephenson-FINAL_2-part14.txt"
-    },
-    {
-      "id": "kevin_scott:0aecd1bd119c",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-41-Behind_The_Tech-Neal_Stephenson-FINAL_2-part15.txt"
-    },
-    {
-      "id": "kevin_scott:539b494f0873",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-41-Behind_The_Tech-Neal_Stephenson-FINAL_2-part16.txt"
-    },
-    {
-      "id": "kevin_scott:de11861f9ce1",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-41-Behind_The_Tech-Neal_Stephenson-FINAL_2-part17.txt"
-    },
-    {
-      "id": "kevin_scott:ba97e712bccf",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-41-Behind_The_Tech-Neal_Stephenson-FINAL_2-part18.txt"
-    },
-    {
-      "id": "kevin_scott:66ba52a3521a",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-41-Behind_The_Tech-Neal_Stephenson-FINAL_2-part19.txt"
-    },
-    {
-      "id": "kevin_scott:9b35e6ef961e",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-41-Behind_The_Tech-Neal_Stephenson-FINAL_2-part2.txt"
-    },
-    {
-      "id": "kevin_scott:b4e7fcc59213",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-41-Behind_The_Tech-Neal_Stephenson-FINAL_2-part20.txt"
-    },
-    {
-      "id": "kevin_scott:46764a66e398",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-41-Behind_The_Tech-Neal_Stephenson-FINAL_2-part21.txt"
-    },
-    {
-      "id": "kevin_scott:b5fd65507c9c",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-41-Behind_The_Tech-Neal_Stephenson-FINAL_2-part22.txt"
-    },
-    {
-      "id": "kevin_scott:95786f19706b",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-41-Behind_The_Tech-Neal_Stephenson-FINAL_2-part23.txt"
-    },
-    {
-      "id": "kevin_scott:76ba9c7c779e",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-41-Behind_The_Tech-Neal_Stephenson-FINAL_2-part24.txt"
-    },
-    {
-      "id": "kevin_scott:b4209bc8c3dd",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-41-Behind_The_Tech-Neal_Stephenson-FINAL_2-part3.txt"
-    },
-    {
-      "id": "kevin_scott:adad4161ba74",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-41-Behind_The_Tech-Neal_Stephenson-FINAL_2-part4.txt"
-    },
-    {
-      "id": "kevin_scott:3a7b75586772",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-41-Behind_The_Tech-Neal_Stephenson-FINAL_2-part5.txt"
-    },
-    {
-      "id": "kevin_scott:64ba5d933f6b",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-41-Behind_The_Tech-Neal_Stephenson-FINAL_2-part6.txt"
-    },
-    {
-      "id": "kevin_scott:62b46684982f",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-41-Behind_The_Tech-Neal_Stephenson-FINAL_2-part7.txt"
-    },
-    {
-      "id": "kevin_scott:177cdfada9ca",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-41-Behind_The_Tech-Neal_Stephenson-FINAL_2-part8.txt"
-    },
-    {
-      "id": "kevin_scott:bf8054b96cf5",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-41-Behind_The_Tech-Neal_Stephenson-FINAL_2-part9.txt"
-    },
-    {
       "id": "kevin_scott:dc11f2e9f338",
       "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-42_Behind_the_Tech_Irma Olguin_Transcript-part1.txt"
     },
@@ -4385,6 +4165,790 @@
     {
       "id": "kevin_scott:c186754a319e",
       "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-43_ Behind_the_Tech_Kevin_Scott_Podcast_with_Alexis_Ohanian-part9.txt"
+    },
+    {
+      "id": "kevin_scott:f9ea9ebcb2df",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part1.txt"
+    },
+    {
+      "id": "kevin_scott:d9eafbe8c44e",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part10.txt"
+    },
+    {
+      "id": "kevin_scott:e8a32549c326",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part11.txt"
+    },
+    {
+      "id": "kevin_scott:2d7098d4de4f",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part12.txt"
+    },
+    {
+      "id": "kevin_scott:a2967690e978",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part13.txt"
+    },
+    {
+      "id": "kevin_scott:8badfd64394b",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part14.txt"
+    },
+    {
+      "id": "kevin_scott:91f8af094f27",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part15.txt"
+    },
+    {
+      "id": "kevin_scott:cbb6accf1226",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part16.txt"
+    },
+    {
+      "id": "kevin_scott:d016d19fb38c",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part17.txt"
+    },
+    {
+      "id": "kevin_scott:569727c3e955",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part18.txt"
+    },
+    {
+      "id": "kevin_scott:a318f79f9588",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part19.txt"
+    },
+    {
+      "id": "kevin_scott:cbf830269e2b",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part2.txt"
+    },
+    {
+      "id": "kevin_scott:35110144f9b6",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part20.txt"
+    },
+    {
+      "id": "kevin_scott:764e9b76bd5e",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part21.txt"
+    },
+    {
+      "id": "kevin_scott:4a3688c3b736",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part22.txt"
+    },
+    {
+      "id": "kevin_scott:6ee943a0d8d1",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part23.txt"
+    },
+    {
+      "id": "kevin_scott:f779aecb4ca0",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part24.txt"
+    },
+    {
+      "id": "kevin_scott:bc9f0b159a5c",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part25.txt"
+    },
+    {
+      "id": "kevin_scott:bed42a304e07",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part26.txt"
+    },
+    {
+      "id": "kevin_scott:e5c39490ecff",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part27.txt"
+    },
+    {
+      "id": "kevin_scott:7c05d1f35f3e",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part28.txt"
+    },
+    {
+      "id": "kevin_scott:7778956217a5",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part29.txt"
+    },
+    {
+      "id": "kevin_scott:ff92477003aa",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part3.txt"
+    },
+    {
+      "id": "kevin_scott:71f6d5aa86b1",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part30.txt"
+    },
+    {
+      "id": "kevin_scott:c55532817557",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part31.txt"
+    },
+    {
+      "id": "kevin_scott:f52d14e197bb",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part32.txt"
+    },
+    {
+      "id": "kevin_scott:b7643503c5f7",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part33.txt"
+    },
+    {
+      "id": "kevin_scott:e1dcc9a4b01c",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part34.txt"
+    },
+    {
+      "id": "kevin_scott:f63bc81099ae",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part4.txt"
+    },
+    {
+      "id": "kevin_scott:c675b5c270c7",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part5.txt"
+    },
+    {
+      "id": "kevin_scott:2fbb5e45edb2",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part6.txt"
+    },
+    {
+      "id": "kevin_scott:ca7c05284b1d",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part7.txt"
+    },
+    {
+      "id": "kevin_scott:92a96e778517",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part8.txt"
+    },
+    {
+      "id": "kevin_scott:cc953742d349",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part9.txt"
+    },
+    {
+      "id": "kevin_scott:66d1e4e6283f",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-49_Behind_the_Tech_Kevin_Scott_Podcast_2022YearinReview-part1.txt"
+    },
+    {
+      "id": "kevin_scott:dd61e88db09f",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-49_Behind_the_Tech_Kevin_Scott_Podcast_2022YearinReview-part10.txt"
+    },
+    {
+      "id": "kevin_scott:e2b297f2d575",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-49_Behind_the_Tech_Kevin_Scott_Podcast_2022YearinReview-part11.txt"
+    },
+    {
+      "id": "kevin_scott:c57fe371c180",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-49_Behind_the_Tech_Kevin_Scott_Podcast_2022YearinReview-part12.txt"
+    },
+    {
+      "id": "kevin_scott:4e80474c790e",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-49_Behind_the_Tech_Kevin_Scott_Podcast_2022YearinReview-part13.txt"
+    },
+    {
+      "id": "kevin_scott:86f5df4c6bfe",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-49_Behind_the_Tech_Kevin_Scott_Podcast_2022YearinReview-part14.txt"
+    },
+    {
+      "id": "kevin_scott:01b36b4a0710",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-49_Behind_the_Tech_Kevin_Scott_Podcast_2022YearinReview-part15.txt"
+    },
+    {
+      "id": "kevin_scott:6cea82b5fd8a",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-49_Behind_the_Tech_Kevin_Scott_Podcast_2022YearinReview-part16.txt"
+    },
+    {
+      "id": "kevin_scott:1c3b793c51ca",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-49_Behind_the_Tech_Kevin_Scott_Podcast_2022YearinReview-part17.txt"
+    },
+    {
+      "id": "kevin_scott:e39a3335cb78",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-49_Behind_the_Tech_Kevin_Scott_Podcast_2022YearinReview-part18.txt"
+    },
+    {
+      "id": "kevin_scott:84bd1bc85591",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-49_Behind_the_Tech_Kevin_Scott_Podcast_2022YearinReview-part19.txt"
+    },
+    {
+      "id": "kevin_scott:4d0093ad3b5c",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-49_Behind_the_Tech_Kevin_Scott_Podcast_2022YearinReview-part2.txt"
+    },
+    {
+      "id": "kevin_scott:fdb24c3af65a",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-49_Behind_the_Tech_Kevin_Scott_Podcast_2022YearinReview-part20.txt"
+    },
+    {
+      "id": "kevin_scott:6944a7e0d1be",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-49_Behind_the_Tech_Kevin_Scott_Podcast_2022YearinReview-part21.txt"
+    },
+    {
+      "id": "kevin_scott:987ce009f578",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-49_Behind_the_Tech_Kevin_Scott_Podcast_2022YearinReview-part22.txt"
+    },
+    {
+      "id": "kevin_scott:16b871d96089",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-49_Behind_the_Tech_Kevin_Scott_Podcast_2022YearinReview-part3.txt"
+    },
+    {
+      "id": "kevin_scott:e7a278cc80f3",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-49_Behind_the_Tech_Kevin_Scott_Podcast_2022YearinReview-part4.txt"
+    },
+    {
+      "id": "kevin_scott:5a680e52c6a3",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-49_Behind_the_Tech_Kevin_Scott_Podcast_2022YearinReview-part5.txt"
+    },
+    {
+      "id": "kevin_scott:1eb99b2afe85",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-49_Behind_the_Tech_Kevin_Scott_Podcast_2022YearinReview-part6.txt"
+    },
+    {
+      "id": "kevin_scott:c4185fd1f9ca",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-49_Behind_the_Tech_Kevin_Scott_Podcast_2022YearinReview-part7.txt"
+    },
+    {
+      "id": "kevin_scott:3cc5bbb7d030",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-49_Behind_the_Tech_Kevin_Scott_Podcast_2022YearinReview-part8.txt"
+    },
+    {
+      "id": "kevin_scott:8acb3e2db581",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-49_Behind_the_Tech_Kevin_Scott_Podcast_2022YearinReview-part9.txt"
+    },
+    {
+      "id": "kevin_scott:437ceaf6cc5d",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-50_Behind_the_Tech_Kevin_Scott_Podcast_with_Tobi_Lutke-part1.txt"
+    },
+    {
+      "id": "kevin_scott:5f4a67b7eabf",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-50_Behind_the_Tech_Kevin_Scott_Podcast_with_Tobi_Lutke-part10.txt"
+    },
+    {
+      "id": "kevin_scott:a9e286420a77",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-50_Behind_the_Tech_Kevin_Scott_Podcast_with_Tobi_Lutke-part11.txt"
+    },
+    {
+      "id": "kevin_scott:e8a27c741350",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-50_Behind_the_Tech_Kevin_Scott_Podcast_with_Tobi_Lutke-part12.txt"
+    },
+    {
+      "id": "kevin_scott:0eb0a9a48486",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-50_Behind_the_Tech_Kevin_Scott_Podcast_with_Tobi_Lutke-part13.txt"
+    },
+    {
+      "id": "kevin_scott:e571543277d7",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-50_Behind_the_Tech_Kevin_Scott_Podcast_with_Tobi_Lutke-part14.txt"
+    },
+    {
+      "id": "kevin_scott:82d3f8f124f7",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-50_Behind_the_Tech_Kevin_Scott_Podcast_with_Tobi_Lutke-part15.txt"
+    },
+    {
+      "id": "kevin_scott:ba7f83b3bb79",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-50_Behind_the_Tech_Kevin_Scott_Podcast_with_Tobi_Lutke-part16.txt"
+    },
+    {
+      "id": "kevin_scott:96482edcc1a3",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-50_Behind_the_Tech_Kevin_Scott_Podcast_with_Tobi_Lutke-part17.txt"
+    },
+    {
+      "id": "kevin_scott:83aa3a43a285",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-50_Behind_the_Tech_Kevin_Scott_Podcast_with_Tobi_Lutke-part18.txt"
+    },
+    {
+      "id": "kevin_scott:98ff1ca168ef",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-50_Behind_the_Tech_Kevin_Scott_Podcast_with_Tobi_Lutke-part19.txt"
+    },
+    {
+      "id": "kevin_scott:3d54498b6eb4",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-50_Behind_the_Tech_Kevin_Scott_Podcast_with_Tobi_Lutke-part2.txt"
+    },
+    {
+      "id": "kevin_scott:2c5ef6d656aa",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-50_Behind_the_Tech_Kevin_Scott_Podcast_with_Tobi_Lutke-part20.txt"
+    },
+    {
+      "id": "kevin_scott:eaa6e7370554",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-50_Behind_the_Tech_Kevin_Scott_Podcast_with_Tobi_Lutke-part21.txt"
+    },
+    {
+      "id": "kevin_scott:e27f08f39901",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-50_Behind_the_Tech_Kevin_Scott_Podcast_with_Tobi_Lutke-part22.txt"
+    },
+    {
+      "id": "kevin_scott:1f3c1edb8529",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-50_Behind_the_Tech_Kevin_Scott_Podcast_with_Tobi_Lutke-part23.txt"
+    },
+    {
+      "id": "kevin_scott:0bce624735a3",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-50_Behind_the_Tech_Kevin_Scott_Podcast_with_Tobi_Lutke-part24.txt"
+    },
+    {
+      "id": "kevin_scott:3adfa0a6eb57",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-50_Behind_the_Tech_Kevin_Scott_Podcast_with_Tobi_Lutke-part25.txt"
+    },
+    {
+      "id": "kevin_scott:adb102cb8116",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-50_Behind_the_Tech_Kevin_Scott_Podcast_with_Tobi_Lutke-part26.txt"
+    },
+    {
+      "id": "kevin_scott:ce21659fcaac",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-50_Behind_the_Tech_Kevin_Scott_Podcast_with_Tobi_Lutke-part3.txt"
+    },
+    {
+      "id": "kevin_scott:b27a8919081e",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-50_Behind_the_Tech_Kevin_Scott_Podcast_with_Tobi_Lutke-part4.txt"
+    },
+    {
+      "id": "kevin_scott:2fdd652386c1",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-50_Behind_the_Tech_Kevin_Scott_Podcast_with_Tobi_Lutke-part5.txt"
+    },
+    {
+      "id": "kevin_scott:0772f56e1844",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-50_Behind_the_Tech_Kevin_Scott_Podcast_with_Tobi_Lutke-part6.txt"
+    },
+    {
+      "id": "kevin_scott:78c33d675475",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-50_Behind_the_Tech_Kevin_Scott_Podcast_with_Tobi_Lutke-part7.txt"
+    },
+    {
+      "id": "kevin_scott:e332b6e17e2e",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-50_Behind_the_Tech_Kevin_Scott_Podcast_with_Tobi_Lutke-part8.txt"
+    },
+    {
+      "id": "kevin_scott:7a98754a5cc1",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-50_Behind_the_Tech_Kevin_Scott_Podcast_with_Tobi_Lutke-part9.txt"
+    },
+    {
+      "id": "kevin_scott:7f8e06bddc68",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-51_Behind_the_Tech_Kevin Scott_Podcast_with_Rana_el_Kaliouby-part1.txt"
+    },
+    {
+      "id": "kevin_scott:e643ea6a73a6",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-51_Behind_the_Tech_Kevin Scott_Podcast_with_Rana_el_Kaliouby-part10.txt"
+    },
+    {
+      "id": "kevin_scott:9e006b0d1793",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-51_Behind_the_Tech_Kevin Scott_Podcast_with_Rana_el_Kaliouby-part11.txt"
+    },
+    {
+      "id": "kevin_scott:b6940f73485a",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-51_Behind_the_Tech_Kevin Scott_Podcast_with_Rana_el_Kaliouby-part12.txt"
+    },
+    {
+      "id": "kevin_scott:37e6114adc83",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-51_Behind_the_Tech_Kevin Scott_Podcast_with_Rana_el_Kaliouby-part13.txt"
+    },
+    {
+      "id": "kevin_scott:ffc60664eef5",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-51_Behind_the_Tech_Kevin Scott_Podcast_with_Rana_el_Kaliouby-part14.txt"
+    },
+    {
+      "id": "kevin_scott:39485e254112",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-51_Behind_the_Tech_Kevin Scott_Podcast_with_Rana_el_Kaliouby-part15.txt"
+    },
+    {
+      "id": "kevin_scott:1e7560c830c1",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-51_Behind_the_Tech_Kevin Scott_Podcast_with_Rana_el_Kaliouby-part16.txt"
+    },
+    {
+      "id": "kevin_scott:197c96b7be7f",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-51_Behind_the_Tech_Kevin Scott_Podcast_with_Rana_el_Kaliouby-part17.txt"
+    },
+    {
+      "id": "kevin_scott:90bd62b375dd",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-51_Behind_the_Tech_Kevin Scott_Podcast_with_Rana_el_Kaliouby-part18.txt"
+    },
+    {
+      "id": "kevin_scott:cd3ef37e41bb",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-51_Behind_the_Tech_Kevin Scott_Podcast_with_Rana_el_Kaliouby-part19.txt"
+    },
+    {
+      "id": "kevin_scott:fdb33e68e39e",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-51_Behind_the_Tech_Kevin Scott_Podcast_with_Rana_el_Kaliouby-part2.txt"
+    },
+    {
+      "id": "kevin_scott:118c20fa1c44",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-51_Behind_the_Tech_Kevin Scott_Podcast_with_Rana_el_Kaliouby-part20.txt"
+    },
+    {
+      "id": "kevin_scott:d786f43dcae6",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-51_Behind_the_Tech_Kevin Scott_Podcast_with_Rana_el_Kaliouby-part21.txt"
+    },
+    {
+      "id": "kevin_scott:d33df450af70",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-51_Behind_the_Tech_Kevin Scott_Podcast_with_Rana_el_Kaliouby-part22.txt"
+    },
+    {
+      "id": "kevin_scott:af15cefa7f7b",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-51_Behind_the_Tech_Kevin Scott_Podcast_with_Rana_el_Kaliouby-part23.txt"
+    },
+    {
+      "id": "kevin_scott:758e7a7ef92b",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-51_Behind_the_Tech_Kevin Scott_Podcast_with_Rana_el_Kaliouby-part24.txt"
+    },
+    {
+      "id": "kevin_scott:3cb860432bef",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-51_Behind_the_Tech_Kevin Scott_Podcast_with_Rana_el_Kaliouby-part25.txt"
+    },
+    {
+      "id": "kevin_scott:472e34723ee8",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-51_Behind_the_Tech_Kevin Scott_Podcast_with_Rana_el_Kaliouby-part26.txt"
+    },
+    {
+      "id": "kevin_scott:1e329dfdd0b3",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-51_Behind_the_Tech_Kevin Scott_Podcast_with_Rana_el_Kaliouby-part3.txt"
+    },
+    {
+      "id": "kevin_scott:1a4cee782d70",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-51_Behind_the_Tech_Kevin Scott_Podcast_with_Rana_el_Kaliouby-part4.txt"
+    },
+    {
+      "id": "kevin_scott:ef9685d99345",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-51_Behind_the_Tech_Kevin Scott_Podcast_with_Rana_el_Kaliouby-part5.txt"
+    },
+    {
+      "id": "kevin_scott:d5e6584a93be",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-51_Behind_the_Tech_Kevin Scott_Podcast_with_Rana_el_Kaliouby-part6.txt"
+    },
+    {
+      "id": "kevin_scott:285b348e3faa",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-51_Behind_the_Tech_Kevin Scott_Podcast_with_Rana_el_Kaliouby-part7.txt"
+    },
+    {
+      "id": "kevin_scott:bb253e909c9d",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-51_Behind_the_Tech_Kevin Scott_Podcast_with_Rana_el_Kaliouby-part8.txt"
+    },
+    {
+      "id": "kevin_scott:c802dd349e6c",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-51_Behind_the_Tech_Kevin Scott_Podcast_with_Rana_el_Kaliouby-part9.txt"
+    },
+    {
+      "id": "kevin_scott:18a14f2dfd4e",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part1.txt"
+    },
+    {
+      "id": "kevin_scott:c0c3ba7e8d10",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part10.txt"
+    },
+    {
+      "id": "kevin_scott:31f9e25136e1",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part11.txt"
+    },
+    {
+      "id": "kevin_scott:00373acb56fe",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part12.txt"
+    },
+    {
+      "id": "kevin_scott:d601c6a46f04",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part13.txt"
+    },
+    {
+      "id": "kevin_scott:e40423968cc1",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part14.txt"
+    },
+    {
+      "id": "kevin_scott:895eb9871850",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part15.txt"
+    },
+    {
+      "id": "kevin_scott:175f71ea2e00",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part16.txt"
+    },
+    {
+      "id": "kevin_scott:20136387ad05",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part17.txt"
+    },
+    {
+      "id": "kevin_scott:f085acc42bf0",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part18.txt"
+    },
+    {
+      "id": "kevin_scott:0b4900cd3545",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part19.txt"
+    },
+    {
+      "id": "kevin_scott:f328a55b838d",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part2.txt"
+    },
+    {
+      "id": "kevin_scott:fd5e035c2adb",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part20.txt"
+    },
+    {
+      "id": "kevin_scott:81d081aab005",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part21.txt"
+    },
+    {
+      "id": "kevin_scott:8b3ff2dc3fd4",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part22.txt"
+    },
+    {
+      "id": "kevin_scott:eb861e4c2ce5",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part23.txt"
+    },
+    {
+      "id": "kevin_scott:b2d55661cf7d",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part24.txt"
+    },
+    {
+      "id": "kevin_scott:46600e53f8af",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part25.txt"
+    },
+    {
+      "id": "kevin_scott:e336964e2398",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part26.txt"
+    },
+    {
+      "id": "kevin_scott:6bc33efdd5e2",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part27.txt"
+    },
+    {
+      "id": "kevin_scott:92f9931c08c7",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part28.txt"
+    },
+    {
+      "id": "kevin_scott:6fbb19b85bd3",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part29.txt"
+    },
+    {
+      "id": "kevin_scott:98fcb6dc1e7a",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part3.txt"
+    },
+    {
+      "id": "kevin_scott:67b1c39733fb",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part30.txt"
+    },
+    {
+      "id": "kevin_scott:b0f901b1dbeb",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part31.txt"
+    },
+    {
+      "id": "kevin_scott:ce3a3d3bfb96",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part32.txt"
+    },
+    {
+      "id": "kevin_scott:42ade45d3333",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part33.txt"
+    },
+    {
+      "id": "kevin_scott:63481c58f2ca",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part4.txt"
+    },
+    {
+      "id": "kevin_scott:68ec546b3b3b",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part5.txt"
+    },
+    {
+      "id": "kevin_scott:dd5730ae45d0",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part6.txt"
+    },
+    {
+      "id": "kevin_scott:c51b628e67bc",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part7.txt"
+    },
+    {
+      "id": "kevin_scott:da08f398e9b0",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part8.txt"
+    },
+    {
+      "id": "kevin_scott:65ca18a5862d",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part9.txt"
+    },
+    {
+      "id": "kevin_scott:df1b410a6a64",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part1.txt"
+    },
+    {
+      "id": "kevin_scott:028943169306",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part10.txt"
+    },
+    {
+      "id": "kevin_scott:d5e2ce112f8c",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part11.txt"
+    },
+    {
+      "id": "kevin_scott:e73127a3cec8",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part12.txt"
+    },
+    {
+      "id": "kevin_scott:e9aba4d93c98",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part13.txt"
+    },
+    {
+      "id": "kevin_scott:6ae181782ebb",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part14.txt"
+    },
+    {
+      "id": "kevin_scott:e92689281a60",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part15.txt"
+    },
+    {
+      "id": "kevin_scott:11d4d452692a",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part16.txt"
+    },
+    {
+      "id": "kevin_scott:d150ee58a66e",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part17.txt"
+    },
+    {
+      "id": "kevin_scott:39ee6ca9341f",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part18.txt"
+    },
+    {
+      "id": "kevin_scott:afbe417fc1e6",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part19.txt"
+    },
+    {
+      "id": "kevin_scott:786326420c87",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part2.txt"
+    },
+    {
+      "id": "kevin_scott:536562b6dd89",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part20.txt"
+    },
+    {
+      "id": "kevin_scott:a9cf449be1e2",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part21.txt"
+    },
+    {
+      "id": "kevin_scott:90accf621ebe",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part22.txt"
+    },
+    {
+      "id": "kevin_scott:8d8d62622c9e",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part23.txt"
+    },
+    {
+      "id": "kevin_scott:d911ebc3f425",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part24.txt"
+    },
+    {
+      "id": "kevin_scott:e6ed4bb8d716",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part25.txt"
+    },
+    {
+      "id": "kevin_scott:dbb7d0ee86db",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part26.txt"
+    },
+    {
+      "id": "kevin_scott:49326b702976",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part27.txt"
+    },
+    {
+      "id": "kevin_scott:935f4b106ae8",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part28.txt"
+    },
+    {
+      "id": "kevin_scott:f01fbe037e11",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part29.txt"
+    },
+    {
+      "id": "kevin_scott:4776c7a9c9b7",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part3.txt"
+    },
+    {
+      "id": "kevin_scott:72ed4215322f",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part30.txt"
+    },
+    {
+      "id": "kevin_scott:d9ed75fe4fc4",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part31.txt"
+    },
+    {
+      "id": "kevin_scott:6339c6b42bd4",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part4.txt"
+    },
+    {
+      "id": "kevin_scott:7d6f564773b3",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part5.txt"
+    },
+    {
+      "id": "kevin_scott:7a38a3ecd30c",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part6.txt"
+    },
+    {
+      "id": "kevin_scott:e1130eedaafe",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part7.txt"
+    },
+    {
+      "id": "kevin_scott:386a68e8f827",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part8.txt"
+    },
+    {
+      "id": "kevin_scott:7b437a2afd6b",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-12-part9.txt"
+    },
+    {
+      "id": "kevin_scott:324efae000d6",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-41-Behind_The_Tech-Neal_Stephenson-FINAL_2-part1.txt"
+    },
+    {
+      "id": "kevin_scott:6f407e68fc92",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-41-Behind_The_Tech-Neal_Stephenson-FINAL_2-part10.txt"
+    },
+    {
+      "id": "kevin_scott:28731f46349b",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-41-Behind_The_Tech-Neal_Stephenson-FINAL_2-part11.txt"
+    },
+    {
+      "id": "kevin_scott:61803bcf50f4",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-41-Behind_The_Tech-Neal_Stephenson-FINAL_2-part12.txt"
+    },
+    {
+      "id": "kevin_scott:304587bd18a9",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-41-Behind_The_Tech-Neal_Stephenson-FINAL_2-part13.txt"
+    },
+    {
+      "id": "kevin_scott:72dc87e0ca38",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-41-Behind_The_Tech-Neal_Stephenson-FINAL_2-part14.txt"
+    },
+    {
+      "id": "kevin_scott:0aecd1bd119c",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-41-Behind_The_Tech-Neal_Stephenson-FINAL_2-part15.txt"
+    },
+    {
+      "id": "kevin_scott:539b494f0873",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-41-Behind_The_Tech-Neal_Stephenson-FINAL_2-part16.txt"
+    },
+    {
+      "id": "kevin_scott:de11861f9ce1",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-41-Behind_The_Tech-Neal_Stephenson-FINAL_2-part17.txt"
+    },
+    {
+      "id": "kevin_scott:ba97e712bccf",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-41-Behind_The_Tech-Neal_Stephenson-FINAL_2-part18.txt"
+    },
+    {
+      "id": "kevin_scott:66ba52a3521a",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-41-Behind_The_Tech-Neal_Stephenson-FINAL_2-part19.txt"
+    },
+    {
+      "id": "kevin_scott:9b35e6ef961e",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-41-Behind_The_Tech-Neal_Stephenson-FINAL_2-part2.txt"
+    },
+    {
+      "id": "kevin_scott:b4e7fcc59213",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-41-Behind_The_Tech-Neal_Stephenson-FINAL_2-part20.txt"
+    },
+    {
+      "id": "kevin_scott:46764a66e398",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-41-Behind_The_Tech-Neal_Stephenson-FINAL_2-part21.txt"
+    },
+    {
+      "id": "kevin_scott:b5fd65507c9c",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-41-Behind_The_Tech-Neal_Stephenson-FINAL_2-part22.txt"
+    },
+    {
+      "id": "kevin_scott:95786f19706b",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-41-Behind_The_Tech-Neal_Stephenson-FINAL_2-part23.txt"
+    },
+    {
+      "id": "kevin_scott:76ba9c7c779e",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-41-Behind_The_Tech-Neal_Stephenson-FINAL_2-part24.txt"
+    },
+    {
+      "id": "kevin_scott:b4209bc8c3dd",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-41-Behind_The_Tech-Neal_Stephenson-FINAL_2-part3.txt"
+    },
+    {
+      "id": "kevin_scott:adad4161ba74",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-41-Behind_The_Tech-Neal_Stephenson-FINAL_2-part4.txt"
+    },
+    {
+      "id": "kevin_scott:3a7b75586772",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-41-Behind_The_Tech-Neal_Stephenson-FINAL_2-part5.txt"
+    },
+    {
+      "id": "kevin_scott:64ba5d933f6b",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-41-Behind_The_Tech-Neal_Stephenson-FINAL_2-part6.txt"
+    },
+    {
+      "id": "kevin_scott:62b46684982f",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-41-Behind_The_Tech-Neal_Stephenson-FINAL_2-part7.txt"
+    },
+    {
+      "id": "kevin_scott:177cdfada9ca",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-41-Behind_The_Tech-Neal_Stephenson-FINAL_2-part8.txt"
+    },
+    {
+      "id": "kevin_scott:bf8054b96cf5",
+      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-41-Behind_The_Tech-Neal_Stephenson-FINAL_2-part9.txt"
     },
     {
       "id": "kevin_scott:6276fc656fb4",
@@ -4849,438 +5413,6 @@
     {
       "id": "kevin_scott:a18a7f0224d6",
       "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-47_Behind_the_Tech_Kevin_Scott_Podcast_with_Sam_Schillace-part9.txt"
-    },
-    {
-      "id": "kevin_scott:f9ea9ebcb2df",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part1.txt"
-    },
-    {
-      "id": "kevin_scott:d9eafbe8c44e",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part10.txt"
-    },
-    {
-      "id": "kevin_scott:e8a32549c326",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part11.txt"
-    },
-    {
-      "id": "kevin_scott:2d7098d4de4f",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part12.txt"
-    },
-    {
-      "id": "kevin_scott:a2967690e978",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part13.txt"
-    },
-    {
-      "id": "kevin_scott:8badfd64394b",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part14.txt"
-    },
-    {
-      "id": "kevin_scott:91f8af094f27",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part15.txt"
-    },
-    {
-      "id": "kevin_scott:cbb6accf1226",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part16.txt"
-    },
-    {
-      "id": "kevin_scott:d016d19fb38c",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part17.txt"
-    },
-    {
-      "id": "kevin_scott:569727c3e955",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part18.txt"
-    },
-    {
-      "id": "kevin_scott:a318f79f9588",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part19.txt"
-    },
-    {
-      "id": "kevin_scott:cbf830269e2b",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part2.txt"
-    },
-    {
-      "id": "kevin_scott:35110144f9b6",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part20.txt"
-    },
-    {
-      "id": "kevin_scott:764e9b76bd5e",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part21.txt"
-    },
-    {
-      "id": "kevin_scott:4a3688c3b736",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part22.txt"
-    },
-    {
-      "id": "kevin_scott:6ee943a0d8d1",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part23.txt"
-    },
-    {
-      "id": "kevin_scott:f779aecb4ca0",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part24.txt"
-    },
-    {
-      "id": "kevin_scott:bc9f0b159a5c",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part25.txt"
-    },
-    {
-      "id": "kevin_scott:bed42a304e07",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part26.txt"
-    },
-    {
-      "id": "kevin_scott:e5c39490ecff",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part27.txt"
-    },
-    {
-      "id": "kevin_scott:7c05d1f35f3e",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part28.txt"
-    },
-    {
-      "id": "kevin_scott:7778956217a5",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part29.txt"
-    },
-    {
-      "id": "kevin_scott:ff92477003aa",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part3.txt"
-    },
-    {
-      "id": "kevin_scott:71f6d5aa86b1",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part30.txt"
-    },
-    {
-      "id": "kevin_scott:c55532817557",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part31.txt"
-    },
-    {
-      "id": "kevin_scott:f52d14e197bb",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part32.txt"
-    },
-    {
-      "id": "kevin_scott:b7643503c5f7",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part33.txt"
-    },
-    {
-      "id": "kevin_scott:e1dcc9a4b01c",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part34.txt"
-    },
-    {
-      "id": "kevin_scott:f63bc81099ae",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part4.txt"
-    },
-    {
-      "id": "kevin_scott:c675b5c270c7",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part5.txt"
-    },
-    {
-      "id": "kevin_scott:2fbb5e45edb2",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part6.txt"
-    },
-    {
-      "id": "kevin_scott:ca7c05284b1d",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part7.txt"
-    },
-    {
-      "id": "kevin_scott:92a96e778517",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part8.txt"
-    },
-    {
-      "id": "kevin_scott:cc953742d349",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-48_Behind_the_Tech_Kevin_Scott_Podcast_with_Randall_Munroe-part9.txt"
-    },
-    {
-      "id": "kevin_scott:66d1e4e6283f",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-49_Behind_the_Tech_Kevin_Scott_Podcast_2022YearinReview-part1.txt"
-    },
-    {
-      "id": "kevin_scott:dd61e88db09f",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-49_Behind_the_Tech_Kevin_Scott_Podcast_2022YearinReview-part10.txt"
-    },
-    {
-      "id": "kevin_scott:e2b297f2d575",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-49_Behind_the_Tech_Kevin_Scott_Podcast_2022YearinReview-part11.txt"
-    },
-    {
-      "id": "kevin_scott:c57fe371c180",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-49_Behind_the_Tech_Kevin_Scott_Podcast_2022YearinReview-part12.txt"
-    },
-    {
-      "id": "kevin_scott:4e80474c790e",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-49_Behind_the_Tech_Kevin_Scott_Podcast_2022YearinReview-part13.txt"
-    },
-    {
-      "id": "kevin_scott:86f5df4c6bfe",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-49_Behind_the_Tech_Kevin_Scott_Podcast_2022YearinReview-part14.txt"
-    },
-    {
-      "id": "kevin_scott:01b36b4a0710",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-49_Behind_the_Tech_Kevin_Scott_Podcast_2022YearinReview-part15.txt"
-    },
-    {
-      "id": "kevin_scott:6cea82b5fd8a",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-49_Behind_the_Tech_Kevin_Scott_Podcast_2022YearinReview-part16.txt"
-    },
-    {
-      "id": "kevin_scott:1c3b793c51ca",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-49_Behind_the_Tech_Kevin_Scott_Podcast_2022YearinReview-part17.txt"
-    },
-    {
-      "id": "kevin_scott:e39a3335cb78",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-49_Behind_the_Tech_Kevin_Scott_Podcast_2022YearinReview-part18.txt"
-    },
-    {
-      "id": "kevin_scott:84bd1bc85591",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-49_Behind_the_Tech_Kevin_Scott_Podcast_2022YearinReview-part19.txt"
-    },
-    {
-      "id": "kevin_scott:4d0093ad3b5c",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-49_Behind_the_Tech_Kevin_Scott_Podcast_2022YearinReview-part2.txt"
-    },
-    {
-      "id": "kevin_scott:fdb24c3af65a",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-49_Behind_the_Tech_Kevin_Scott_Podcast_2022YearinReview-part20.txt"
-    },
-    {
-      "id": "kevin_scott:6944a7e0d1be",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-49_Behind_the_Tech_Kevin_Scott_Podcast_2022YearinReview-part21.txt"
-    },
-    {
-      "id": "kevin_scott:987ce009f578",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-49_Behind_the_Tech_Kevin_Scott_Podcast_2022YearinReview-part22.txt"
-    },
-    {
-      "id": "kevin_scott:16b871d96089",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-49_Behind_the_Tech_Kevin_Scott_Podcast_2022YearinReview-part3.txt"
-    },
-    {
-      "id": "kevin_scott:e7a278cc80f3",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-49_Behind_the_Tech_Kevin_Scott_Podcast_2022YearinReview-part4.txt"
-    },
-    {
-      "id": "kevin_scott:5a680e52c6a3",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-49_Behind_the_Tech_Kevin_Scott_Podcast_2022YearinReview-part5.txt"
-    },
-    {
-      "id": "kevin_scott:1eb99b2afe85",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-49_Behind_the_Tech_Kevin_Scott_Podcast_2022YearinReview-part6.txt"
-    },
-    {
-      "id": "kevin_scott:c4185fd1f9ca",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-49_Behind_the_Tech_Kevin_Scott_Podcast_2022YearinReview-part7.txt"
-    },
-    {
-      "id": "kevin_scott:3cc5bbb7d030",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-49_Behind_the_Tech_Kevin_Scott_Podcast_2022YearinReview-part8.txt"
-    },
-    {
-      "id": "kevin_scott:8acb3e2db581",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-49_Behind_the_Tech_Kevin_Scott_Podcast_2022YearinReview-part9.txt"
-    },
-    {
-      "id": "kevin_scott:437ceaf6cc5d",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-50_Behind_the_Tech_Kevin_Scott_Podcast_with_Tobi_Lutke-part1.txt"
-    },
-    {
-      "id": "kevin_scott:5f4a67b7eabf",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-50_Behind_the_Tech_Kevin_Scott_Podcast_with_Tobi_Lutke-part10.txt"
-    },
-    {
-      "id": "kevin_scott:a9e286420a77",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-50_Behind_the_Tech_Kevin_Scott_Podcast_with_Tobi_Lutke-part11.txt"
-    },
-    {
-      "id": "kevin_scott:e8a27c741350",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-50_Behind_the_Tech_Kevin_Scott_Podcast_with_Tobi_Lutke-part12.txt"
-    },
-    {
-      "id": "kevin_scott:0eb0a9a48486",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-50_Behind_the_Tech_Kevin_Scott_Podcast_with_Tobi_Lutke-part13.txt"
-    },
-    {
-      "id": "kevin_scott:e571543277d7",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-50_Behind_the_Tech_Kevin_Scott_Podcast_with_Tobi_Lutke-part14.txt"
-    },
-    {
-      "id": "kevin_scott:82d3f8f124f7",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-50_Behind_the_Tech_Kevin_Scott_Podcast_with_Tobi_Lutke-part15.txt"
-    },
-    {
-      "id": "kevin_scott:ba7f83b3bb79",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-50_Behind_the_Tech_Kevin_Scott_Podcast_with_Tobi_Lutke-part16.txt"
-    },
-    {
-      "id": "kevin_scott:96482edcc1a3",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-50_Behind_the_Tech_Kevin_Scott_Podcast_with_Tobi_Lutke-part17.txt"
-    },
-    {
-      "id": "kevin_scott:83aa3a43a285",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-50_Behind_the_Tech_Kevin_Scott_Podcast_with_Tobi_Lutke-part18.txt"
-    },
-    {
-      "id": "kevin_scott:98ff1ca168ef",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-50_Behind_the_Tech_Kevin_Scott_Podcast_with_Tobi_Lutke-part19.txt"
-    },
-    {
-      "id": "kevin_scott:3d54498b6eb4",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-50_Behind_the_Tech_Kevin_Scott_Podcast_with_Tobi_Lutke-part2.txt"
-    },
-    {
-      "id": "kevin_scott:2c5ef6d656aa",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-50_Behind_the_Tech_Kevin_Scott_Podcast_with_Tobi_Lutke-part20.txt"
-    },
-    {
-      "id": "kevin_scott:eaa6e7370554",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-50_Behind_the_Tech_Kevin_Scott_Podcast_with_Tobi_Lutke-part21.txt"
-    },
-    {
-      "id": "kevin_scott:e27f08f39901",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-50_Behind_the_Tech_Kevin_Scott_Podcast_with_Tobi_Lutke-part22.txt"
-    },
-    {
-      "id": "kevin_scott:1f3c1edb8529",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-50_Behind_the_Tech_Kevin_Scott_Podcast_with_Tobi_Lutke-part23.txt"
-    },
-    {
-      "id": "kevin_scott:0bce624735a3",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-50_Behind_the_Tech_Kevin_Scott_Podcast_with_Tobi_Lutke-part24.txt"
-    },
-    {
-      "id": "kevin_scott:3adfa0a6eb57",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-50_Behind_the_Tech_Kevin_Scott_Podcast_with_Tobi_Lutke-part25.txt"
-    },
-    {
-      "id": "kevin_scott:adb102cb8116",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-50_Behind_the_Tech_Kevin_Scott_Podcast_with_Tobi_Lutke-part26.txt"
-    },
-    {
-      "id": "kevin_scott:ce21659fcaac",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-50_Behind_the_Tech_Kevin_Scott_Podcast_with_Tobi_Lutke-part3.txt"
-    },
-    {
-      "id": "kevin_scott:b27a8919081e",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-50_Behind_the_Tech_Kevin_Scott_Podcast_with_Tobi_Lutke-part4.txt"
-    },
-    {
-      "id": "kevin_scott:2fdd652386c1",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-50_Behind_the_Tech_Kevin_Scott_Podcast_with_Tobi_Lutke-part5.txt"
-    },
-    {
-      "id": "kevin_scott:0772f56e1844",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-50_Behind_the_Tech_Kevin_Scott_Podcast_with_Tobi_Lutke-part6.txt"
-    },
-    {
-      "id": "kevin_scott:78c33d675475",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-50_Behind_the_Tech_Kevin_Scott_Podcast_with_Tobi_Lutke-part7.txt"
-    },
-    {
-      "id": "kevin_scott:e332b6e17e2e",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-50_Behind_the_Tech_Kevin_Scott_Podcast_with_Tobi_Lutke-part8.txt"
-    },
-    {
-      "id": "kevin_scott:7a98754a5cc1",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-50_Behind_the_Tech_Kevin_Scott_Podcast_with_Tobi_Lutke-part9.txt"
-    },
-    {
-      "id": "kevin_scott:7f8e06bddc68",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-51_Behind_the_Tech_Kevin Scott_Podcast_with_Rana_el_Kaliouby-part1.txt"
-    },
-    {
-      "id": "kevin_scott:e643ea6a73a6",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-51_Behind_the_Tech_Kevin Scott_Podcast_with_Rana_el_Kaliouby-part10.txt"
-    },
-    {
-      "id": "kevin_scott:9e006b0d1793",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-51_Behind_the_Tech_Kevin Scott_Podcast_with_Rana_el_Kaliouby-part11.txt"
-    },
-    {
-      "id": "kevin_scott:b6940f73485a",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-51_Behind_the_Tech_Kevin Scott_Podcast_with_Rana_el_Kaliouby-part12.txt"
-    },
-    {
-      "id": "kevin_scott:37e6114adc83",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-51_Behind_the_Tech_Kevin Scott_Podcast_with_Rana_el_Kaliouby-part13.txt"
-    },
-    {
-      "id": "kevin_scott:ffc60664eef5",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-51_Behind_the_Tech_Kevin Scott_Podcast_with_Rana_el_Kaliouby-part14.txt"
-    },
-    {
-      "id": "kevin_scott:39485e254112",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-51_Behind_the_Tech_Kevin Scott_Podcast_with_Rana_el_Kaliouby-part15.txt"
-    },
-    {
-      "id": "kevin_scott:1e7560c830c1",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-51_Behind_the_Tech_Kevin Scott_Podcast_with_Rana_el_Kaliouby-part16.txt"
-    },
-    {
-      "id": "kevin_scott:197c96b7be7f",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-51_Behind_the_Tech_Kevin Scott_Podcast_with_Rana_el_Kaliouby-part17.txt"
-    },
-    {
-      "id": "kevin_scott:90bd62b375dd",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-51_Behind_the_Tech_Kevin Scott_Podcast_with_Rana_el_Kaliouby-part18.txt"
-    },
-    {
-      "id": "kevin_scott:cd3ef37e41bb",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-51_Behind_the_Tech_Kevin Scott_Podcast_with_Rana_el_Kaliouby-part19.txt"
-    },
-    {
-      "id": "kevin_scott:fdb33e68e39e",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-51_Behind_the_Tech_Kevin Scott_Podcast_with_Rana_el_Kaliouby-part2.txt"
-    },
-    {
-      "id": "kevin_scott:118c20fa1c44",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-51_Behind_the_Tech_Kevin Scott_Podcast_with_Rana_el_Kaliouby-part20.txt"
-    },
-    {
-      "id": "kevin_scott:d786f43dcae6",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-51_Behind_the_Tech_Kevin Scott_Podcast_with_Rana_el_Kaliouby-part21.txt"
-    },
-    {
-      "id": "kevin_scott:d33df450af70",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-51_Behind_the_Tech_Kevin Scott_Podcast_with_Rana_el_Kaliouby-part22.txt"
-    },
-    {
-      "id": "kevin_scott:af15cefa7f7b",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-51_Behind_the_Tech_Kevin Scott_Podcast_with_Rana_el_Kaliouby-part23.txt"
-    },
-    {
-      "id": "kevin_scott:758e7a7ef92b",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-51_Behind_the_Tech_Kevin Scott_Podcast_with_Rana_el_Kaliouby-part24.txt"
-    },
-    {
-      "id": "kevin_scott:3cb860432bef",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-51_Behind_the_Tech_Kevin Scott_Podcast_with_Rana_el_Kaliouby-part25.txt"
-    },
-    {
-      "id": "kevin_scott:472e34723ee8",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-51_Behind_the_Tech_Kevin Scott_Podcast_with_Rana_el_Kaliouby-part26.txt"
-    },
-    {
-      "id": "kevin_scott:1e329dfdd0b3",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-51_Behind_the_Tech_Kevin Scott_Podcast_with_Rana_el_Kaliouby-part3.txt"
-    },
-    {
-      "id": "kevin_scott:1a4cee782d70",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-51_Behind_the_Tech_Kevin Scott_Podcast_with_Rana_el_Kaliouby-part4.txt"
-    },
-    {
-      "id": "kevin_scott:ef9685d99345",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-51_Behind_the_Tech_Kevin Scott_Podcast_with_Rana_el_Kaliouby-part5.txt"
-    },
-    {
-      "id": "kevin_scott:d5e6584a93be",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-51_Behind_the_Tech_Kevin Scott_Podcast_with_Rana_el_Kaliouby-part6.txt"
-    },
-    {
-      "id": "kevin_scott:285b348e3faa",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-51_Behind_the_Tech_Kevin Scott_Podcast_with_Rana_el_Kaliouby-part7.txt"
-    },
-    {
-      "id": "kevin_scott:bb253e909c9d",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-51_Behind_the_Tech_Kevin Scott_Podcast_with_Rana_el_Kaliouby-part8.txt"
-    },
-    {
-      "id": "kevin_scott:c802dd349e6c",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-51_Behind_the_Tech_Kevin Scott_Podcast_with_Rana_el_Kaliouby-part9.txt"
     },
     {
       "id": "kevin_scott:2ba2ab60a272",
@@ -6545,138 +6677,6 @@
     {
       "id": "kevin_scott:3f4fcd2552e3",
       "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/Ep-62_Behind_the_Tech_Kevin_Scott_Podcast_with_Xyla_Foxlin-part9.txt"
-    },
-    {
-      "id": "kevin_scott:18a14f2dfd4e",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part1.txt"
-    },
-    {
-      "id": "kevin_scott:c0c3ba7e8d10",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part10.txt"
-    },
-    {
-      "id": "kevin_scott:31f9e25136e1",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part11.txt"
-    },
-    {
-      "id": "kevin_scott:00373acb56fe",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part12.txt"
-    },
-    {
-      "id": "kevin_scott:d601c6a46f04",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part13.txt"
-    },
-    {
-      "id": "kevin_scott:e40423968cc1",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part14.txt"
-    },
-    {
-      "id": "kevin_scott:895eb9871850",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part15.txt"
-    },
-    {
-      "id": "kevin_scott:175f71ea2e00",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part16.txt"
-    },
-    {
-      "id": "kevin_scott:20136387ad05",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part17.txt"
-    },
-    {
-      "id": "kevin_scott:f085acc42bf0",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part18.txt"
-    },
-    {
-      "id": "kevin_scott:0b4900cd3545",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part19.txt"
-    },
-    {
-      "id": "kevin_scott:f328a55b838d",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part2.txt"
-    },
-    {
-      "id": "kevin_scott:fd5e035c2adb",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part20.txt"
-    },
-    {
-      "id": "kevin_scott:81d081aab005",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part21.txt"
-    },
-    {
-      "id": "kevin_scott:8b3ff2dc3fd4",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part22.txt"
-    },
-    {
-      "id": "kevin_scott:eb861e4c2ce5",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part23.txt"
-    },
-    {
-      "id": "kevin_scott:b2d55661cf7d",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part24.txt"
-    },
-    {
-      "id": "kevin_scott:46600e53f8af",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part25.txt"
-    },
-    {
-      "id": "kevin_scott:e336964e2398",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part26.txt"
-    },
-    {
-      "id": "kevin_scott:6bc33efdd5e2",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part27.txt"
-    },
-    {
-      "id": "kevin_scott:92f9931c08c7",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part28.txt"
-    },
-    {
-      "id": "kevin_scott:6fbb19b85bd3",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part29.txt"
-    },
-    {
-      "id": "kevin_scott:98fcb6dc1e7a",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part3.txt"
-    },
-    {
-      "id": "kevin_scott:67b1c39733fb",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part30.txt"
-    },
-    {
-      "id": "kevin_scott:b0f901b1dbeb",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part31.txt"
-    },
-    {
-      "id": "kevin_scott:ce3a3d3bfb96",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part32.txt"
-    },
-    {
-      "id": "kevin_scott:42ade45d3333",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part33.txt"
-    },
-    {
-      "id": "kevin_scott:63481c58f2ca",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part4.txt"
-    },
-    {
-      "id": "kevin_scott:68ec546b3b3b",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part5.txt"
-    },
-    {
-      "id": "kevin_scott:dd5730ae45d0",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part6.txt"
-    },
-    {
-      "id": "kevin_scott:c51b628e67bc",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part7.txt"
-    },
-    {
-      "id": "kevin_scott:da08f398e9b0",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part8.txt"
-    },
-    {
-      "id": "kevin_scott:65ca18a5862d",
-      "relative_path": "Kevin Scott Podcast Transcripts Input Text/input/EP-9_ Behind_the_Tech_Kevin Scott_Podcast_with_Reid_Hoffman-part9.txt"
     }
   ],
   "question_files": [
@@ -6692,6 +6692,10 @@
   "discovery_evidence": [
     "podcast transcript filename/content pattern"
   ],
-  "warnings": [],
-  "validation_issues": []
+  "warnings": [
+    "Unclassified text files (not skipped): example.txt"
+  ],
+  "validation_issues": [
+    "Unclassified text files (not skipped): example.txt"
+  ]
 }
